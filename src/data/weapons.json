@@ -1,0 +1,2955 @@
+[
+  {
+    "id": "drs-iar",
+    "name": "DRS-IAR",
+    "class": "LMG",
+    "tier": "S",
+    "tags": ["OP", "Easy to use"],
+    "role": "Assault-rifle-style support LMG",
+    "bestAt": "Run it as an assault rifle for Support: 771 rpm, 4-shot kills, a 30-round mag and much lighter handling than belt-fed LMGs. Push lanes and objectives at 10–60 m with a 1.75x, then reload behind cover instead of sitting on a bipod.",
+    "shines": "The best Support primary on every map and the strongest gun in the game this season. It only looks weak on paper as an LMG because of the 30-round mag.",
+    "unlock": "Career Rank 9",
+    "build": {
+      "name": "Assault",
+      "notes": "The 20\" SDM-R barrel and Slim Angled grip tame the kick that was its launch weakness. The 30RND Fast Mag keeps the quick, rifle-style reload rhythm.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 2, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 39, "points": 30 },
+        { "slot": "Barrel", "name": "20\" SDM-R", "level": 14, "points": 10 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 18, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 6, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Top Accessory", "name": "50 MW Violet", "level": "S2 Hardware 1", "points": 10 }
+      ]
+    },
+    "alt": {
+      "name": "Ranged",
+      "when": "Big maps and long sightlines",
+      "parts": [
+        { "slot": "Scope", "name": "BAKER 3.00X", "level": 17, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 39, "points": 30 },
+        { "slot": "Barrel", "name": "20\" SDM-R", "level": 14, "points": 10 },
+        { "slot": "Underbarrel", "name": "6H64 Vertical", "level": 13, "points": 25 },
+        { "slot": "Magazine", "name": "36RND Magazine", "level": 12, "points": 15 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "stats": {
+      "rpm": 771,
+      "magazine": 30,
+      "velocity": 680,
+      "adsMs": 367,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 11.3,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "z84m",
+    "name": "Z84M",
+    "class": "LMG",
+    "tier": "S",
+    "tags": ["OP", "New", "Hard to use"],
+    "role": "Close-range belt-fed shredder",
+    "bestAt": "Winning close fights: 720 rpm and 35 damage (3 chest hits to 20 m) make it the fastest-killing LMG at every range, with a 100-round box. Hold the trigger through multi-kills indoors; slow ADS and a 6.7 s reload punish open ground.",
+    "shines": "Small and urban maps and Breakthrough chokepoints; on big open maps, bipod it from cover. A free Battle Pass reward and the second-strongest gun this season, like a TR-7 with 100 rounds.",
+    "unlock": "Season 5 Battle Pass (free) — Fate's Reckoning path, tier 11",
+    "build": {
+      "name": "CQB",
+      "notes": "Run it on the default Iron Sights. The Slim Angled grip and 605MM BGR barrel fight the worst recoil in its class, and the 100RND Canvas Pouch is the best box.",
+      "parts": [
+        { "slot": "Scope", "name": "Iron Sights (default)", "level": 0, "points": 5 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 16, "points": 25 },
+        { "slot": "Barrel", "name": "605MM BGR", "level": 31, "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 15, "points": 25 },
+        { "slot": "Magazine", "name": "100RND Canvas Pouch", "level": 30, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Right Accessory", "name": "50 MW Violet", "level": 18, "points": 10 }
+      ]
+    },
+    "alt": {
+      "name": "Hipfire",
+      "when": "Small maps and tight interiors where you mostly hipfire",
+      "parts": [
+        { "slot": "Scope", "name": "Iron Sights (default)", "level": 0, "points": 5 },
+        { "slot": "Barrel", "name": "580MM SP", "level": 10 },
+        { "slot": "Underbarrel", "name": "Canted Vertical", "level": 1 },
+        { "slot": "Magazine", "name": "100RND Canvas Pouch", "level": 30, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Right Accessory", "name": "5 MW Red", "level": 6 }
+      ]
+    },
+    "stats": {
+      "rpm": 720,
+      "magazine": 100,
+      "velocity": 604,
+      "adsMs": 433,
+      "reloadS": 6.7,
+      "headshot": 1.57,
+      "hitscanM": 10.1,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 20, "body": 26, "hits": 4 },
+        { "from": 75, "body": 20.6, "hits": 5 }
+      ]
+    }
+  },
+  {
+    "id": "sg-553r",
+    "name": "SG 553R",
+    "class": "Carbine",
+    "tier": "S",
+    "tags": ["OP"],
+    "role": "Aggressive close-mid slayer",
+    "bestAt": "Aggressive close-mid gunfights: 720 rpm and ~35 damage give a 3-shot kill up close, the fastest of any carbine. Push objectives, and use the long barrel and a heavy grip to stretch it to mid range despite bouncy recoil.",
+    "shines": "Small and medium maps and Breakthrough or Rush choke points, where it dominates. Past ~50 m its slow 483 m/s bullets and bouncy recoil show, so use the 2.5x build there.",
+    "unlock": "Assignment: Danger Close 2",
+    "build": {
+      "name": "Aggro LB",
+      "notes": "The 303MM LB barrel is the key part, and the Classic Vertical grip handles the worst recoil variation in its class. The Long Suppressor keeps you off the minimap.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 2, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 28, "points": 25 },
+        { "slot": "Barrel", "name": "303MM LB", "level": 2, "points": 5 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 31, "points": 35 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 22, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Right Accessory", "name": "5 MW Red", "level": 5, "points": 10 }
+      ]
+    },
+    "alt": {
+      "name": "Ranged",
+      "when": "Big Conquest maps and holding mid-range lanes",
+      "parts": [
+        { "slot": "Scope", "name": "BF-2M 2.50x", "level": 34, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 28, "points": 25 },
+        { "slot": "Barrel", "name": "303MM LB", "level": 2, "points": 5 },
+        { "slot": "Underbarrel", "name": "Low-Profile Stubby", "level": 40, "points": 45 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "stats": {
+      "rpm": 720,
+      "magazine": 30,
+      "velocity": 483,
+      "adsMs": 200,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 8.1,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 10, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 35, "body": 17.2, "hits": 6 },
+        { "from": 75, "body": 14.7, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "m4a1",
+    "name": "M4A1",
+    "class": "Carbine",
+    "tier": "S",
+    "tags": ["Easy to use"],
+    "role": "Close-mid rush carbine",
+    "bestAt": "Close-quarters and short-mid fights: ~900 rpm gives a fast 4-shot kill and forgives missed shots. Its muzzle climbs fast and blooms at range, so push and trade aggressively rather than holding long lanes.",
+    "shines": "Small maps and infantry modes. It unlocks at Career Rank 2, making it the best starter gun; on big open maps, leave long lanes to a rifle or the 2.5x SG 553R.",
+    "unlock": "Career Rank 2",
+    "build": {
+      "name": "Rush",
+      "notes": "The cheap 14.5\" Carbine barrel raises bullet speed to ~787 m/s, and the Classic Vertical grip controls the vertical climb. The 36RND Magazine suits the high fire rate.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 4, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 39, "points": 30 },
+        { "slot": "Barrel", "name": "14.5\" Carbine", "level": 13, "points": 5 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 15, "points": 35 },
+        { "slot": "Magazine", "name": "36RND Magazine", "level": 31, "points": 15 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 900,
+      "magazine": 30,
+      "velocity": 590,
+      "adsMs": 200,
+      "reloadS": 2.2,
+      "headshot": 1.4,
+      "hitscanM": 9.8,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 10, "body": 21.6, "hits": 5 },
+        { "from": 20, "body": 17.8, "hits": 6 },
+        { "from": 35, "body": 17.2, "hits": 6 },
+        { "from": 75, "body": 14.7, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "mini-scout",
+    "name": "Mini Scout",
+    "class": "Sniper Rifle",
+    "tier": "S",
+    "tags": ["OP", "Hard to use"],
+    "role": "Aggressive quickscope sniper",
+    "bestAt": "Aggressive quickscoping: the fastest rechamber and fast ~760 m/s bullets, but no body-shot sweet spot, so headshots one-shot at any range while bodies take 2. Push with your squad and snap quick mid-range headshots; don't camp a hill.",
+    "shines": "Small and medium infantry maps and Breakthrough, Rush and TDM; flank and take 30–120 m headshot lanes. Weak if you can't hit heads.",
+    "unlock": "Past Battle Pass (Soldiers Of Fortune path, tier 21)",
+    "build": {
+      "name": "Quickscope",
+      "notes": "The 18\" Extended barrel and S-VPS 6x are the core. The Lightened Suppressor and Slim Angled grip keep you off the minimap and speed up ADS, and the cheap 10RND Fast Mag saves points.",
+      "parts": [
+        { "slot": "Scope", "name": "S-VPS 6.00X", "level": 9, "points": 10 },
+        { "slot": "Optic Accessory", "name": "Anti-Glare Coating", "level": 40, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 39, "points": 30 },
+        { "slot": "Barrel", "name": "18\" Extended", "level": 4, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 31, "points": 15 },
+        { "slot": "Magazine", "name": "10RND Fast Mag", "level": 8, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Left Accessory", "name": "Range Finder", "level": 24, "points": 15 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 51,
+      "magazine": 10,
+      "velocity": 800,
+      "adsMs": 250,
+      "reloadS": 2.3,
+      "headshot": 1.75,
+      "sweetSpots": [],
+      "bodyDamage": [
+        { "from": 0, "body": 64 },
+        { "from": 35, "body": 60 },
+        { "from": 50, "body": 57 },
+        { "from": 70, "body": 51 },
+        { "from": 80, "body": 51 }
+      ]
+    }
+  },
+  {
+    "id": "m87a1",
+    "name": "M87A1",
+    "class": "Shotgun",
+    "tier": "S",
+    "tags": ["Easy to use"],
+    "role": "One-shot pump room clearer",
+    "bestAt": "The best shotgun in the game, available by default: consistent one-shot pump kills from point-blank to ~15–20 m with buckshot. Work objectives, interiors, stairwells and corners, and aim down sights for the last few meters of range.",
+    "shines": "Small maps and Breakthrough or Rush interiors, played as Assault. Slugs keep it useful on large maps, though a bullet-drag update cut their long-range punch.",
+    "unlock": "Available from the start",
+    "build": {
+      "name": "Buckshot CQB",
+      "notes": "The cheap #01 Buckshot leaves room for the CQB Suppressor, the 50 MW Green hipfire laser and the 7 Shell Tube.",
+      "parts": [
+        { "slot": "Scope", "name": "Iron Sights", "level": 0, "points": 5 },
+        { "slot": "Muzzle", "name": "CQB Suppressor", "level": 18, "points": 30 },
+        { "slot": "Barrel", "name": "20\" Factory", "level": 0, "points": 10 },
+        { "slot": "Underbarrel", "name": "Slim Handstop", "level": "S1 Hardware 3", "points": 15 },
+        { "slot": "Magazine", "name": "7 Shell Tube", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "#01 Buckshot", "level": 0, "points": 10 },
+        { "slot": "Right Accessory", "name": "50 MW Green", "level": 35, "points": 20 }
+      ]
+    },
+    "alt": {
+      "name": "Slugs",
+      "when": "Big maps, or as a one-hit slug mini-DMR at 20–50 m",
+      "parts": [
+        { "slot": "Scope", "name": "Iron Sights", "level": 0, "points": 5 },
+        { "slot": "Muzzle", "name": "CQB Suppressor", "level": 18, "points": 30 },
+        { "slot": "Barrel", "name": "24\" Extended", "level": "S4 Hardware 1", "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Handstop", "level": "S1 Hardware 3", "points": 15 },
+        { "slot": "Magazine", "name": "7 Shell Tube", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Slugs", "level": 8, "points": 40 }
+      ]
+    },
+    "stats": {
+      "rpm": 94,
+      "magazine": 8,
+      "velocity": 400,
+      "adsMs": 250,
+      "reloadS": 1.2,
+      "headshot": 1,
+      "note": "One-shot kills out to roughly 15–20 m with buckshot."
+    }
+  },
+  {
+    "id": "nvo-228e",
+    "name": "NVO-228E",
+    "class": "Assault Rifle",
+    "tier": "S",
+    "tags": ["OP"],
+    "role": "Aggressive close-mid objective rifle",
+    "bestAt": "Winning close fights: 3 hits kill inside ~10 m, second only to the TR-7, and 4 hits kill out to ~20 m with moderate recoil. Push objectives and take short-mid fights; it falls behind other ARs past ~30 m.",
+    "shines": "Objective play in Breakthrough, Rush and on small maps, where the 3-hit close kill pays off. The strongest AR this season on both small and large maps.",
+    "unlock": "Assignment: Rapid Fire 2",
+    "build": {
+      "name": "Close-Mid",
+      "notes": "The 409MM Cryogenic barrel and Slim Angled grip are the core of this gun. The MINI FLEX 1x dot suits its close-range strength.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 2, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 29, "points": 25 },
+        { "slot": "Barrel", "name": "409MM Cryogenic", "level": "S3 Hardware 6", "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 11, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 3, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "Ranged",
+      "when": "Big Conquest maps and mid-range lanes",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 27, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 36, "points": 30 },
+        { "slot": "Barrel", "name": "458MM Custom", "level": 10, "points": 5 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 21, "points": 35 },
+        { "slot": "Magazine", "name": "36RND Magazine", "level": 25, "points": 15 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "stats": {
+      "rpm": 654,
+      "magazine": 30,
+      "velocity": 626,
+      "adsMs": 250,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 10.4,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 10, "body": 27.5, "hits": 4 },
+        { "from": 20, "body": 21.6, "hits": 5 },
+        { "from": 35, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "scw-10",
+    "name": "SCW-10",
+    "class": "SMG",
+    "tier": "S",
+    "tags": [],
+    "role": "Close-range shredder",
+    "bestAt": "The fastest close-range kill of any SMG: 35 damage means 3 chest shots kill inside ~10 m at 800 rpm. Clear rooms, capture flags and run-and-gun, but damage falls off hard past ~20 m and the small mag punishes spraying.",
+    "shines": "Small maps, Breakthrough and Rush interiors and the Vegas Strip buildings, played as an Assault or Engineer flanker. Switch to the RSPR or PW7A2 when lanes open past 20 m.",
+    "unlock": "Assignment: Close Quarters 1",
+    "build": {
+      "name": "CQB",
+      "notes": "The 25RND Magazine is the near-universal pick because the 15-round base mag can't handle multi-kills, so the build skips the grip. The cheap 200MM Custom barrel and Long Suppressor keep it controllable and off the minimap.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 5, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 26, "points": 25 },
+        { "slot": "Barrel", "name": "200MM Custom", "level": 1, "points": 5 },
+        { "slot": "Magazine", "name": "25RND Magazine", "level": 27, "points": 45 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Top Accessory", "name": "5 MW Green", "level": 18, "points": 10 }
+      ]
+    },
+    "alt": {
+      "name": "Agile",
+      "when": "If you prefer faster ADS and strafing over mag size",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 5, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 26, "points": 25 },
+        { "slot": "Barrel", "name": "200MM Custom", "level": 1, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 38, "points": 20 },
+        { "slot": "Magazine", "name": "20RND Magazine", "level": 22, "points": 20 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Top Accessory", "name": "5 MW Green", "level": 18, "points": 10 }
+      ]
+    },
+    "stats": {
+      "rpm": 800,
+      "magazine": 15,
+      "velocity": 398,
+      "adsMs": 167,
+      "reloadS": 2.6,
+      "headshot": 1.4,
+      "hitscanM": 6.6,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 10, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 35, "body": 17.2, "hits": 6 },
+        { "from": 75, "body": 14.7, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "rspr",
+    "name": "RSPR",
+    "class": "SMG",
+    "tier": "A",
+    "tags": ["New", "Hard to use"],
+    "role": "Mid-range PDW all-rounder",
+    "bestAt": "Hits like the SCW-10 (35 damage, 3 shots inside 10 m) at 720 rpm with a 28-round mag, and holds its damage at 10–40 m better than 9mm SMGs. Push objectives and burst past ~25 m, as its recoil is the heaviest of any SMG.",
+    "shines": "Medium maps and Conquest, where fights stretch past 15 m; an Engineer favorite. The strongest SMG right now, partly thanks to novelty, though the SCW-10 still kills faster inside 10 m.",
+    "unlock": "Season 5 Battle Pass (free) — Access Defied path, tier 11",
+    "build": {
+      "name": "Versatile",
+      "notes": "The 28RND Magazine fixes the 20-round base mag, and the cheap 11\" Rifle barrel adds range and velocity. The Long Suppressor and Slim Angled grip balance recoil against ADS speed.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 18, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 16, "points": 25 },
+        { "slot": "Barrel", "name": "11\" Rifle", "level": 8, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 25, "points": 20 },
+        { "slot": "Magazine", "name": "28RND Magazine", "level": 40, "points": 35 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "Control",
+      "when": "If the kick is too much or most fights are 20–40 m",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 18, "points": 10 },
+        { "slot": "Muzzle", "name": "Compensator", "level": 1 },
+        { "slot": "Barrel", "name": "11\" Rifle", "level": 8, "points": 5 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 36 },
+        { "slot": "Magazine", "name": "28RND Magazine", "level": 40, "points": 35 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "stats": {
+      "rpm": 720,
+      "magazine": 20,
+      "velocity": 453,
+      "adsMs": 167,
+      "reloadS": 2.3,
+      "headshot": 1.57,
+      "hitscanM": 7.5,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 10, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 35, "body": 17.2, "hits": 6 },
+        { "from": 75, "body": 14.7, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "m1014",
+    "name": "M1014",
+    "class": "Shotgun",
+    "tier": "A",
+    "tags": ["Easy to use"],
+    "role": "Semi-auto hipfire room clearer",
+    "bestAt": "Hipfire room clearing: a forgiving semi-auto that fires follow-ups without pumping, so a missed or partial first shot is quickly corrected. It handles several enemies at once well.",
+    "shines": "Tight infantry maps and objective rooms in Rush and Breakthrough. It is weaker than the M87A1 past ~10 m, so keep it out of open big-map lanes.",
+    "unlock": "Career Rank 42",
+    "build": {
+      "name": "Hipfire CQB",
+      "notes": "#00 Buckshot is the usual ammo for this gun, and the 5 MW Green laser and Slim Handstop tighten hipfire.",
+      "parts": [
+        { "slot": "Scope", "name": "Iron Sights", "level": 0, "points": 5 },
+        { "slot": "Muzzle", "name": "CQB Suppressor", "level": 18, "points": 30 },
+        { "slot": "Barrel", "name": "18.5\" Factory", "level": 0, "points": 10 },
+        { "slot": "Underbarrel", "name": "Slim Handstop", "level": "S1 Hardware 3", "points": 15 },
+        { "slot": "Magazine", "name": "6 Shell Tube", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "#00 Buckshot", "level": "S3 Hardware 2", "points": 20 },
+        { "slot": "Right Accessory", "name": "5 MW Green", "level": 23, "points": 10 },
+        { "slot": "Left Accessory", "name": "Taclight - Aimed", "level": "S2 Hardware 1", "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 200,
+      "magazine": 7,
+      "velocity": 400,
+      "adsMs": 250,
+      "reloadS": 1.7,
+      "headshot": 1,
+      "note": "Semi-auto: reliable kills inside ~10 m, usually 1–2 shots."
+    }
+  },
+  {
+    "id": "m433",
+    "name": "M433",
+    "class": "Assault Rifle",
+    "tier": "A",
+    "tags": ["Easy to use"],
+    "role": "Fast-firing close-mid all-rounder",
+    "bestAt": "Aggressive close-mid fights: 830 rpm and 26 damage kill fast up close, and it stays among the top 3 ARs for kill speed out to 50 m. A default rifle with a 30-round mag that needs no unlock.",
+    "shines": "Small and medium maps and objective play, where it is strongest. One of the best-performing ARs this season.",
+    "unlock": "Available from the start",
+    "build": {
+      "name": "Rusher",
+      "notes": "The 16.5\" Fluted barrel, Slim Angled grip and 30RND Fast Mag set it up for close range, with a MINI FLEX 1x dot on top.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 12, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 25, "points": 25 },
+        { "slot": "Barrel", "name": "16.5\" Fluted", "level": 29, "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 33, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 11, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "Mid",
+      "when": "Bigger maps, with a 1.75x optic",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 21, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 25, "points": 25 },
+        { "slot": "Barrel", "name": "18.9\" Prototype", "level": 5, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 33, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 11, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Top Accessory", "name": "50 MW Blue", "level": 33, "points": 20 }
+      ]
+    },
+    "stats": {
+      "rpm": 830,
+      "magazine": 30,
+      "velocity": 630,
+      "adsMs": 250,
+      "reloadS": 2.4,
+      "headshot": 1.4,
+      "hitscanM": 10.5,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "brod-3",
+    "name": "Brod 3",
+    "class": "Carbine",
+    "tier": "A",
+    "tags": [],
+    "role": "SMG-style close-range carbine",
+    "bestAt": "Close-quarters fights: a high fire rate and easy full-auto control make it play like an SMG with more reach, still able to spray targets down at ~50 m. Run it aggressively on objectives and in buildings; it falls off past mid range.",
+    "shines": "Small maps, Rush, Breakthrough and urban or indoor fights, where it ranks among the top close-range carbines. Season 4 catch-up challenges still unlock it.",
+    "unlock": "Season 4 Battle Pass (Night Parade T11) — S4 catch-up challenge added in S5",
+    "build": {
+      "name": "CQB Rush",
+      "notes": "The cheap 14.5\" Carbine barrel adds reach for free. The 6H64 Vertical, 36RND Magazine, Aftermarket Buffer and Hollow Point round out the build.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": null, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 35, "points": 25 },
+        { "slot": "Barrel", "name": "14.5\" Carbine", "level": 16, "points": 5 },
+        { "slot": "Underbarrel", "name": "6H64 Vertical", "level": 26, "points": 25 },
+        { "slot": "Magazine", "name": "36RND Magazine", "level": 27, "points": 15 },
+        { "slot": "Ammunition", "name": "Hollow Point", "level": 30, "points": 15 },
+        { "slot": "Ergonomics", "name": "Aftermarket Buffer", "level": 25, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 830,
+      "magazine": 30,
+      "velocity": 580,
+      "adsMs": 200,
+      "reloadS": 2.2,
+      "headshot": 1.34,
+      "hitscanM": 9.7,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 10, "body": 21.6, "hits": 5 },
+        { "from": 20, "body": 17.8, "hits": 6 },
+        { "from": 35, "body": 17.2, "hits": 7 },
+        { "from": 75, "body": 14.7, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "b36a4",
+    "name": "B36A4",
+    "class": "Assault Rifle",
+    "tier": "A",
+    "tags": [],
+    "role": "Long-range-damage mid-range rifle",
+    "bestAt": "Mid-range lanes: 720 rpm with 26 damage held out to ~35 m, low recoil variation and fast 740 m/s bullets. Hold sightlines at 20–50 m; it is weak in pure close quarters.",
+    "shines": "Conquest and other big maps, where it is one of the best ARs, but it is poor on small maps. Switch to the NVO-228E, M433 or TR-7 for close-quarters maps.",
+    "unlock": "Career Rank 14",
+    "build": {
+      "name": "Mid",
+      "notes": "The 480MM Cryogenic barrel shows up in most current builds of this gun. The Slim Angled grip, Hollow Point ammo and RO-M 1.75x optic round it out for 20–50 m fights.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 16, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 28, "points": 25 },
+        { "slot": "Barrel", "name": "480MM Cryogenic", "level": "S3 Hardware 6", "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 29, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Hollow Point", "level": 20, "points": 15 }
+      ]
+    },
+    "alt": {
+      "name": "Ranged",
+      "when": "Open Conquest maps, with a 3x optic",
+      "parts": [
+        { "slot": "Scope", "name": "BAKER 3.00X", "level": 17, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 35, "points": 30 },
+        { "slot": "Barrel", "name": "510MM DMR", "level": 26, "points": 10 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 13, "points": 35 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "stats": {
+      "rpm": 720,
+      "magazine": 30,
+      "velocity": 740,
+      "adsMs": 250,
+      "reloadS": 2.4,
+      "headshot": 1.4,
+      "hitscanM": 12.3,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 35, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "vcr-2",
+    "name": "VCR-2",
+    "class": "Assault Rifle",
+    "tier": "A",
+    "tags": ["Hard to use"],
+    "role": "High-ROF close-mid shredder",
+    "bestAt": "Shredding at close-mid range: 900 rpm with 26 damage gives a very fast close kill. It has the bounciest recoil in its class, so it rewards strong recoil control and short-mid fights.",
+    "shines": "Infantry-heavy small maps and Breakthrough. It racks up kills faster than any other AR this season.",
+    "unlock": "Past Battle Pass (Woodland Rangers path, tier 22)",
+    "build": {
+      "name": "Shredder",
+      "notes": "The 18\" Fluted barrel and Slim Angled grip tame its bouncy recoil. The MINI FLEX 1x dot, Long Suppressor and 5 MW Green laser complete a close-range setup.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 1, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 26, "points": 25 },
+        { "slot": "Barrel", "name": "18\" Fluted", "level": 25, "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 12, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Top Accessory", "name": "5 MW Green", "level": 9, "points": 10 }
+      ]
+    },
+    "alt": {
+      "name": "Marksman",
+      "when": "Longer fights where you need maximum recoil control",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 1, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 26, "points": 25 },
+        { "slot": "Barrel", "name": "20\" Marksman", "level": 15, "points": 5 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 34, "points": 35 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 8, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "stats": {
+      "rpm": 900,
+      "magazine": 30,
+      "velocity": 660,
+      "adsMs": 250,
+      "reloadS": 2.4,
+      "headshot": 1.4,
+      "hitscanM": 11,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "m123k",
+    "name": "M123K",
+    "class": "LMG",
+    "tier": "A",
+    "tags": ["Hard to use"],
+    "role": "SMG-like bullet hose",
+    "bestAt": "Play it like a heavy SMG: the highest fire rate of any LMG (830 rpm) and a 100-round belt, but the worst recoil variation in its class. Push close and mid-close fights (0–30 m), spray down groups on objectives and keep moving.",
+    "shines": "Small maps and Breakthrough and Rush objectives, where it is strongest; it is weaker on big maps. The third-best LMG this season.",
+    "unlock": "Career Rank 38",
+    "build": {
+      "name": "Hose",
+      "notes": "The 370MM Compact barrel, 100RND Belt Pouch, FMJ and MINI FLEX dot appear in every recent close build. The Ribbed Stubby grip reins in the spray.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 2, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 23, "points": 25 },
+        { "slot": "Barrel", "name": "370MM Compact", "level": 0, "points": 15 },
+        { "slot": "Underbarrel", "name": "Ribbed Stubby", "level": 18, "points": 30 },
+        { "slot": "Magazine", "name": "100RND Belt Pouch", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Right Accessory", "name": "5 MW Green", "level": 12, "points": 10 }
+      ]
+    },
+    "alt": {
+      "name": "Midrange",
+      "when": "Bigger maps, with the 612MM VMW barrel and RO-M optic",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 7, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 34, "points": 30 },
+        { "slot": "Barrel", "name": "612MM VMW", "level": 22, "points": 10 },
+        { "slot": "Underbarrel", "name": "Ribbed Stubby", "level": 18, "points": 30 },
+        { "slot": "Magazine", "name": "100RND Belt Pouch", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Right Accessory", "name": "50 MW Violet", "level": "S2 Hardware 1", "points": 10 }
+      ]
+    },
+    "stats": {
+      "rpm": 830,
+      "magazine": 100,
+      "velocity": 630,
+      "adsMs": 367,
+      "reloadS": 6.7,
+      "headshot": 1.4,
+      "hitscanM": 10.5,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "m417-a2",
+    "name": "M417 A2",
+    "class": "Carbine",
+    "tier": "A",
+    "tags": ["Hidden gem"],
+    "role": "Hard-hitting mid-range carbine",
+    "bestAt": "Mid-range fights: battle-rifle damage gives a 3-shot kill out to a respectable distance, with the second-lowest recoil variation in its class. Tap or short-burst targets at 20–60 m and reload between fights, since its mags are small.",
+    "shines": "Medium and large maps and fighting from cover. An underrated pick that performs among the best carbines; it struggles in sustained close quarters.",
+    "unlock": "Career Rank 32",
+    "build": {
+      "name": "Mid-Range",
+      "notes": "The 25RND Magazine is a must given the tiny base mag. The cheap 16.5\" Rifle barrel adds range, and the Lightened Suppressor and 6H64 Vertical keep the jumpy recoil in check.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 3, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 32, "points": 30 },
+        { "slot": "Barrel", "name": "16.5\" Rifle", "level": 5, "points": 5 },
+        { "slot": "Underbarrel", "name": "6H64 Vertical", "level": 18, "points": 25 },
+        { "slot": "Magazine", "name": "25RND Magazine", "level": 29, "points": 15 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Top Accessory", "name": "5 MW Red", "level": 4, "points": 10 }
+      ]
+    },
+    "alt": {
+      "name": "Marksman",
+      "when": "Big open maps, with a 3.5x optic",
+      "parts": [
+        { "slot": "Scope", "name": "SDO 3.50X", "level": 32, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 32, "points": 30 },
+        { "slot": "Barrel", "name": "16.5\" Rifle", "level": 5, "points": 5 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 14, "points": 35 },
+        { "slot": "Magazine", "name": "25RND Magazine", "level": 29, "points": 15 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "stats": {
+      "rpm": 654,
+      "magazine": 20,
+      "velocity": 560,
+      "adsMs": 200,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 9.3,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 10, "body": 27.5, "hits": 4 },
+        { "from": 20, "body": 21.6, "hits": 5 },
+        { "from": 35, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "grt-bc",
+    "name": "GRT-BC",
+    "class": "Carbine",
+    "tier": "A",
+    "tags": ["Hidden gem"],
+    "role": "Controllable mid-range all-rounder",
+    "bestAt": "Short-to-mid fights: it shares the Brod 3 and M433 damage and fire rate but handles recoil better, so it is more reliable at medium range. The main drawback is a slow reload, so reload during lulls.",
+    "shines": "Small and medium maps. Underrated because it unlocks late, at Career Rank 41, but it performs as well as the M417 A2.",
+    "unlock": "Career Rank 41",
+    "build": {
+      "name": "Versatile",
+      "notes": "The cheap 14.5\" Alt barrel adds reach and the Ribbed Stubby grip adds stability. The 36RND Magazine and Improved Mag Catch offset the slow reload.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 0, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 28, "points": 25 },
+        { "slot": "Barrel", "name": "14.5\" Alt", "level": 16, "points": 5 },
+        { "slot": "Underbarrel", "name": "Ribbed Stubby", "level": 21, "points": 30 },
+        { "slot": "Magazine", "name": "36RND Magazine", "level": 15, "points": 15 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "Improved Mag Catch", "level": 6, "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "CQB",
+      "when": "Small maps and indoor fights",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 2, "points": 10 },
+        { "slot": "Muzzle", "name": "Standard Suppressor", "level": 23, "points": 20 },
+        { "slot": "Barrel", "name": "10\" Factory", "level": 0, "points": 20 },
+        { "slot": "Underbarrel", "name": "Ribbed Stubby", "level": 21, "points": 30 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Right Accessory", "name": "5 MW Green", "level": 12, "points": 10 }
+      ]
+    },
+    "stats": {
+      "rpm": 830,
+      "magazine": 30,
+      "velocity": 563,
+      "adsMs": 200,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 9.4,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 10, "body": 21.6, "hits": 5 },
+        { "from": 20, "body": 17.8, "hits": 6 },
+        { "from": 75, "body": 14.7, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "m39-emr",
+    "name": "M39 EMR",
+    "class": "DMR",
+    "tier": "A",
+    "tags": ["Easy to use"],
+    "role": "Mid-range semi-auto marksman",
+    "bestAt": "The most consistent DMR right now: 3 chest hits or 2 headshots kill, with 15–20 round mags. Hold 30–80 m lanes with paced, deliberate shots.",
+    "shines": "Medium and large maps, on any class. Still the top DMR after the Season 5 nerf, which only bites if you spam at max fire rate, so tap at a steady rhythm.",
+    "unlock": "Career Rank 4",
+    "build": {
+      "name": "Marksman",
+      "notes": "The Lightened Suppressor and Match Grade ammo give clean mid-range shots, and the PVQ-31 4x is the right optic for DMR range.",
+      "parts": [
+        { "slot": "Scope", "name": "PVQ-31 4.00x", "level": 0, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 6, "points": 30 },
+        { "slot": "Barrel", "name": "22\" Factory", "level": 0, "points": 5 },
+        { "slot": "Underbarrel", "name": "Canted Stubby", "level": 27, "points": 30 },
+        { "slot": "Magazine", "name": "15RND Fast Mag", "level": 6, "points": 10 },
+        { "slot": "Ammunition", "name": "Match Grade", "level": 28, "points": 10 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 257,
+      "magazine": 20,
+      "velocity": 760,
+      "adsMs": 300,
+      "reloadS": 2.5,
+      "headshot": 1.5,
+      "hitscanM": 12.7,
+      "damage": [
+        { "from": 0, "body": 41.7, "hits": 3 },
+        { "from": 20, "body": 37.7, "hits": 3 },
+        { "from": 75, "body": 34.3, "hits": 3 }
+      ]
+    }
+  },
+  {
+    "id": "elr-40",
+    "name": "ELR-40",
+    "class": "Sniper Rifle",
+    "tier": "A",
+    "tags": ["New"],
+    "role": "Aggressive one-shot sniper (Single Shot)",
+    "bestAt": "With the Single Shot mag it one-shots on any hit at 44–69 m and upper-torso hits at 30–80 m, so push aggressively between reloads. The standard 7-round mag moves the sweet spot to ~150–180 m, the furthest in the game.",
+    "shines": "Single Shot is the best default for mid-range fights; switch to the standard mag only on long-sightline maps. Inside 30 m Single Shot loses its edge, so carry a real sidearm.",
+    "unlock": "Season 5 Battle Pass (free) — Recruit Path, tier 5",
+    "build": {
+      "name": "Single Shot",
+      "notes": "The Single Shot mag pulls the one-shot sweet spot into real fight ranges, and Improved Mag Catch speeds up the per-shot reload. The 1P86 LPVO suits the 30–80 m band.",
+      "parts": [
+        { "slot": "Scope", "name": "1P86 LPVO", "level": 16, "points": 20 },
+        { "slot": "Optic Accessory", "name": "Anti-Glare Coating", "level": 40, "points": 10 },
+        { "slot": "Muzzle", "name": "CQB Suppressor", "level": 21, "points": 30 },
+        { "slot": "Barrel", "name": "29\" Full", "level": 29, "points": 10 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 27, "points": 15 },
+        { "slot": "Magazine", "name": "Single Shot", "level": 13, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "Improved Mag Catch", "level": 4, "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "Longshot",
+      "when": "Big open maps like Area 51, using the 150–180 m sweet spot",
+      "parts": [
+        { "slot": "Scope", "name": "NFX 8.00X", "level": null, "points": 10 },
+        { "slot": "Optic Accessory", "name": "Anti-Glare Coating", "level": 40, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 34, "points": 25 },
+        { "slot": "Barrel", "name": "32\" Custom", "level": 3, "points": 5 },
+        { "slot": "Underbarrel", "name": "Full Angled", "level": 1, "points": 5 },
+        { "slot": "Magazine", "name": "7RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "DLC Bolt", "level": 38, "points": 30 }
+      ]
+    },
+    "stats": {
+      "rpm": 36,
+      "magazine": 7,
+      "velocity": 788,
+      "adsMs": 367,
+      "reloadS": 2.4,
+      "headshot": 1.75,
+      "sweetSpots": [
+        { "from": 30, "to": 80, "label": "Single Shot mag · upper torso" },
+        { "from": 44, "to": 69, "label": "Single Shot mag · any body hit" },
+        { "from": 150, "to": 180, "label": "7RND mag · body one-shot" }
+      ]
+    }
+  },
+  {
+    "id": "tr-7",
+    "name": "TR-7",
+    "class": "Assault Rifle",
+    "tier": "A",
+    "tags": ["Hard to use"],
+    "role": "Close-range 3-hit duelist",
+    "bestAt": "Raw close-range speed: 35 damage at 720 rpm kills in 3 hits, the fastest AR kill up close, and it stays quick out to 50 m. The hardest recoil in its class and a 20-round mag call for short, aggressive fights.",
+    "shines": "Small maps, Rush, Breakthrough and indoor fights; burst-fire past 30 m. It unlocks late, at Career Rank 50.",
+    "unlock": "Career Rank 50",
+    "build": {
+      "name": "Duelist",
+      "notes": "The 6H64 Vertical grip and 432MM Fluted barrel fight its heavy recoil, so unlock the grip first. The MINI FLEX 1x dot, Long Suppressor and 5 MW Green laser complete a close-range setup.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 2, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 29, "points": 25 },
+        { "slot": "Barrel", "name": "432MM Fluted", "level": 25, "points": 20 },
+        { "slot": "Underbarrel", "name": "6H64 Vertical", "level": 9, "points": 25 },
+        { "slot": "Magazine", "name": "20RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Top Accessory", "name": "5 MW Green", "level": 11, "points": 10 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 720,
+      "magazine": 20,
+      "velocity": 604,
+      "adsMs": 250,
+      "reloadS": 2.4,
+      "headshot": 1.4,
+      "hitscanM": 10.1,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 20, "body": 26, "hits": 4 },
+        { "from": 75, "body": 20.6, "hits": 5 }
+      ]
+    }
+  },
+  {
+    "id": "cz3a1",
+    "name": "CZ3A1",
+    "class": "SMG",
+    "tier": "A",
+    "tags": ["Hard to use"],
+    "role": "High-RPM hipfire SMG",
+    "bestAt": "Aggressive room-clearing and flag fights inside ~15 m: a 981 rpm 9mm with the third-fastest kill in its class and strong hipfire. Keep fights short, since its recoil is the worst of the 9mm SMGs.",
+    "shines": "Small maps, Breakthrough attack and tight interiors. One of the stronger SMGs this season, and an easier unlock than the KV9 (Career Rank 45).",
+    "unlock": "Past Battle Pass (Nightfall path, tier 11)",
+    "build": {
+      "name": "Hipfire CQB",
+      "notes": "The 7.7\" Pencil barrel and 5 MW Green laser help hipfire and handling, and the Long Suppressor tames the kick. The 30RND Fast Mag shortens the frequent reloads that 981 rpm forces.",
+      "parts": [
+        { "slot": "Scope", "name": "Mini Flex 1.00x", "level": 0, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 29, "points": 25 },
+        { "slot": "Barrel", "name": "7.7\" Pencil", "level": 4, "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 8, "points": 20 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 32, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Right Accessory", "name": "5 MW Green", "level": 15, "points": 10 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 981,
+      "magazine": 30,
+      "velocity": 336,
+      "adsMs": 167,
+      "reloadS": 2.2,
+      "headshot": 1.4,
+      "hitscanM": 5.6,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 10, "body": 20.6, "hits": 5 },
+        { "from": 20, "body": 17.2, "hits": 6 },
+        { "from": 35, "body": 14.7, "hits": 8 },
+        { "from": 75, "body": 12.9, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "vssm",
+    "name": "VSSM",
+    "class": "DMR",
+    "tier": "A",
+    "tags": [],
+    "role": "Suppressed close-mid skirmisher DMR",
+    "bestAt": "Aggressive short-mid fights: integrally suppressed, with fast handling and a 20-round mag. It kills in 3 hits inside 10 m but needs 5 past 35 m, so play it like a DMR-SMG hybrid, not a long-range marksman rifle.",
+    "shines": "Small maps, interiors and objective pushes; keep it out of long lanes. One of the top DMRs this season and the fastest of them at racking up kills.",
+    "unlock": "Season 4 Battle Pass — S4 catch-up challenge added in S5",
+    "build": {
+      "name": "Skirmish",
+      "notes": "The 200MM ASM barrel and Folding Stock are the agility core. The MINI FLEX 1x dot suits close fights.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 12, "points": 10 },
+        { "slot": "Barrel", "name": "200MM ASM", "level": 12, "points": 20 },
+        { "slot": "Underbarrel", "name": "Folding Stubby", "level": 1, "points": 20 },
+        { "slot": "Magazine", "name": "20RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Tungsten Core", "level": 5, "points": 5 },
+        { "slot": "Ergonomics", "name": "Folding Stock", "level": 15, "points": 40 }
+      ]
+    },
+    "alt": {
+      "name": "Mid",
+      "when": "Medium lanes out to ~35 m and beyond",
+      "parts": [
+        { "slot": "Scope", "name": "BF-2M 2.50x", "level": 5, "points": 10 },
+        { "slot": "Barrel", "name": "200MM Factory", "level": 0, "points": 30 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 8, "points": 25 },
+        { "slot": "Magazine", "name": "20RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Tungsten Match", "level": 0, "points": 10 },
+        { "slot": "Ergonomics", "name": "Improved Mag Catch", "level": 7, "points": 5 },
+        { "slot": "Right Accessory", "name": "50 MW Violet", "level": 9, "points": 10 }
+      ]
+    },
+    "stats": {
+      "rpm": 450,
+      "magazine": 20,
+      "velocity": 303,
+      "adsMs": 250,
+      "reloadS": 2.5,
+      "headshot": 1.8,
+      "hitscanM": 5,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 10, "body": 27.5, "hits": 4 },
+        { "from": 35, "body": 22, "hits": 5 },
+        { "from": 50, "body": 20.6, "hits": 5 }
+      ]
+    }
+  },
+  {
+    "id": "m16a4",
+    "name": "M16A4",
+    "class": "Assault Rifle",
+    "tier": "A",
+    "tags": [],
+    "role": "Mid-range burst rifle",
+    "bestAt": "Mid-range picks in its default burst mode: two chest bursts kill, and one head burst kills inside ~20 m. Burst is the better mode overall; full auto only pays off on close-quarters maps.",
+    "shines": "Conquest and mid-range lanes, on both small and large maps. If most of your fights are inside 25 m, run the full-auto build instead.",
+    "unlock": "Past Battle Pass (Tiger Shark path, tier 11)",
+    "build": {
+      "name": "Burst",
+      "notes": "The 20\" HBAR barrel is the key part and cuts burst bloom. Staying in burst saves the points a full-auto conversion would cost for the rest of the build.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75X", "level": 22, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 39, "points": 30 },
+        { "slot": "Barrel", "name": "20\" HBAR", "level": 25, "points": 10 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 13, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Hollow Point", "level": 21, "points": 15 },
+        { "slot": "Ergonomics", "name": "Aftermarket Buffer", "level": "S3 Hardware 2", "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "Auto",
+      "when": "Close-quarters maps and small modes, converted to 771 rpm full auto",
+      "parts": [
+        { "slot": "Scope", "name": "Mini Flex 1.00x", "level": 10, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 27, "points": 25 },
+        { "slot": "Barrel", "name": "20\" Factory", "level": 0, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 13, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "A3 Receiver", "level": 15, "points": 25 }
+      ]
+    },
+    "stats": {
+      "rpm": 771,
+      "magazine": 30,
+      "velocity": 680,
+      "adsMs": 250,
+      "reloadS": 2.2,
+      "headshot": 1.4,
+      "hitscanM": 11.3,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "m44",
+    "name": "M44",
+    "class": "Pistol",
+    "tier": "A",
+    "tags": ["Hard to use"],
+    "role": "Two-tap backup revolver",
+    "bestAt": "A two-tap backup if you can land shots: 2 body shots kill out to ~20 m, the fastest pistol kill at 10–20 m, and 3 shots out to ~75 m. Make both count; it holds 6 rounds and reloads slowly.",
+    "shines": "The best backup for Recon or Support when an enemy jumps you up close. The top pistol this season, though it unlocks late (Career Rank 48) and punishes misses hard.",
+    "unlock": "Career Rank 48",
+    "build": {
+      "name": "Duelist",
+      "notes": "The 8.37\" Long barrel and Hollow Point stretch the 2-shot range, and Gunslinger speeds up its handling as a backup weapon.",
+      "parts": [
+        { "slot": "Scope", "name": "Iron Sights", "level": 0, "points": 5 },
+        { "slot": "Barrel", "name": "8.37\" Long", "level": 5, "points": 5 },
+        { "slot": "Magazine", "name": "6RND Speedloader", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Hollow Point", "level": 24, "points": 20 },
+        { "slot": "Ergonomics", "name": "Gunslinger", "level": "S3 Hardware 4", "points": 10 }
+      ]
+    },
+    "alt": {
+      "name": "Hipfire",
+      "when": "If you mostly fight point-blank, like Recon flanked in buildings",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 4, "points": 10 },
+        { "slot": "Barrel", "name": "5.12\" Compact", "level": 14, "points": 15 },
+        { "slot": "Magazine", "name": "6RND Speedloader", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Hollow Point", "level": 24, "points": 20 },
+        { "slot": "Ergonomics", "name": "Gunslinger", "level": "S3 Hardware 4", "points": 10 }
+      ]
+    },
+    "stats": {
+      "rpm": 163,
+      "magazine": 6,
+      "velocity": 440,
+      "adsMs": 200,
+      "reloadS": 3.4,
+      "headshot": 1.5,
+      "hitscanM": 7.3,
+      "damage": [
+        { "from": 0, "body": 66.7, "hits": 2 },
+        { "from": 10, "body": 60, "hits": 2 },
+        { "from": 20, "body": 33.4, "hits": 3 },
+        { "from": 75, "body": 25, "hits": 4 }
+      ]
+    }
+  },
+  {
+    "id": "m2010-esr",
+    "name": "M2010 ESR",
+    "class": "Sniper Rifle",
+    "tier": "A",
+    "tags": ["Easy to use"],
+    "role": "Mid-range sweet-spot sniper (75-100 m)",
+    "bestAt": "Overwatching objectives from mid distance: its 75–100 m body-shot sweet spot is the most usable of the classic bolt guns, and fast 760 m/s bullets make it easy to hit with. The all-round Recon sniper, not a map-edge camper.",
+    "shines": "Conquest and Breakthrough on big maps: sit 75–100 m from the objective you're covering. Strong on paper for big maps, but only middling this season.",
+    "unlock": "Available from the start",
+    "build": {
+      "name": "Classic",
+      "notes": "The Range Finder tells you when a target is inside the 75–100 m one-shot band. DLC Bolt speeds up follow-ups, and Match Grade plus the 26\" Carbon barrel flatten the trajectory.",
+      "parts": [
+        { "slot": "Scope", "name": "NFX 8.00X", "level": 22, "points": 10 },
+        { "slot": "Muzzle", "name": "Standard Suppressor", "level": 21, "points": 20 },
+        { "slot": "Barrel", "name": "26\" Carbon", "level": 16, "points": 5 },
+        { "slot": "Underbarrel", "name": "Full Angled", "level": 1, "points": 5 },
+        { "slot": "Magazine", "name": "5RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Match Grade", "level": 3, "points": 10 },
+        { "slot": "Ergonomics", "name": "DLC Bolt", "level": 13, "points": 30 },
+        { "slot": "Left Accessory", "name": "Range Finder", "level": 0, "points": 15 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 43,
+      "magazine": 5,
+      "velocity": 760,
+      "adsMs": 300,
+      "reloadS": 3.2,
+      "headshot": 1.75,
+      "sweetSpots": [
+        { "from": 75, "to": 100, "label": "Body one-shot" }
+      ],
+      "bodyDamage": [
+        { "from": 0, "body": 80 },
+        { "from": 55, "body": 82 },
+        { "from": 60, "body": 87 },
+        { "from": 65, "body": 91 },
+        { "from": 70, "body": 96 },
+        { "from": 75, "body": 100 }
+      ]
+    }
+  },
+  {
+    "id": "vz-61",
+    "name": "VZ. 61",
+    "class": "Pistol",
+    "tier": "A",
+    "tags": ["Easy to use"],
+    "role": "Full-auto machine pistol",
+    "bestAt": "The only full-auto sidearm (818 rpm): forgiving up close and the fastest-killing pistol from 20 m out. An easy panic button if you don't trust your aim, once you unlock the 20-round mag at weapon level 26.",
+    "shines": "A Support or Engineer backup, or for anyone with shaky aim. Weaker than it looks, and slightly harder to control on controller since Season 5.",
+    "unlock": "Available from the start",
+    "build": {
+      "name": "Auto",
+      "notes": "The 20RND Magazine is essential to fix the 10-round base mag. The 115mm Factory barrel, Ribbed Stubby grip for recoil and Improved Mag Catch round it out.",
+      "parts": [
+        { "slot": "Scope", "name": "Iron Sights", "level": 0, "points": 5 },
+        { "slot": "Barrel", "name": "115mm Factory", "level": 0, "points": 10 },
+        { "slot": "Underbarrel", "name": "Ribbed Stubby", "level": 6, "points": 30 },
+        { "slot": "Magazine", "name": "20RND Magazine", "level": 26, "points": 40 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "Improved Mag Catch", "level": 14, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 818,
+      "magazine": 10,
+      "velocity": 313,
+      "adsMs": 167,
+      "reloadS": 2.1,
+      "headshot": 1.4,
+      "hitscanM": 5.2,
+      "damage": [
+        { "from": 0, "body": 17.2, "hits": 6 },
+        { "from": 10, "body": 15, "hits": 7 },
+        { "from": 35, "body": 12.9, "hits": 8 },
+        { "from": 80, "body": 11.2, "hits": 10 }
+      ]
+    }
+  },
+  {
+    "id": "185ks-k",
+    "name": "18.5KS-K",
+    "class": "Shotgun",
+    "tier": "B",
+    "tags": ["Hard to use"],
+    "role": "Semi-auto slug mini-DMR",
+    "bestAt": "A mag-fed semi-auto best used as a slug mini-DMR, fired from ADS at ~20–50 m where pump shotguns stop working. Hard to use, but it is the only shotgun that holds up on big maps.",
+    "shines": "Big Conquest maps and holding mid-range lanes. Slugs drop off past ~50 m, and its buckshot setup is outclassed up close by the M87A1 and M1014.",
+    "unlock": "Assignment: Point Blank 2",
+    "build": {
+      "name": "Slug DMR",
+      "notes": "Slugs are the core of the build. The 8RND Fast Mag offsets the reload penalty, and the 2PRO 1.25x optic helps with precise slug shots.",
+      "parts": [
+        { "slot": "Scope", "name": "2PRO 1.25X", "level": 1, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 37, "points": 30 },
+        { "slot": "Barrel", "name": "430MM Factory", "level": 29, "points": 5 },
+        { "slot": "Magazine", "name": "8RND Fast Mag", "level": 20, "points": 10 },
+        { "slot": "Ammunition", "name": "Slugs", "level": 8, "points": 40 }
+      ]
+    },
+    "alt": {
+      "name": "Buckshot",
+      "when": "Small maps and interiors, with buckshot",
+      "parts": [
+        { "slot": "Scope", "name": "Iron Sights", "level": 1, "points": 5 },
+        { "slot": "Muzzle", "name": "CQB Suppressor", "level": 18, "points": 30 },
+        { "slot": "Barrel", "name": "430MM Factory", "level": 29, "points": 5 },
+        { "slot": "Underbarrel", "name": "Full Angled", "level": 38, "points": 25 },
+        { "slot": "Magazine", "name": "8RND Fast Mag", "level": 20, "points": 10 },
+        { "slot": "Ammunition", "name": "#01 Buckshot", "level": 0, "points": 10 },
+        { "slot": "Right Accessory", "name": "5 MW Green", "level": 22, "points": 10 }
+      ]
+    },
+    "stats": {
+      "rpm": 300,
+      "magazine": 8,
+      "velocity": 400,
+      "adsMs": 200,
+      "reloadS": 2.8,
+      "headshot": 1,
+      "note": "Best with Slugs at ~20–50 m; its buckshot is outclassed up close."
+    }
+  },
+  {
+    "id": "svk-86",
+    "name": "SVK-8.6",
+    "class": "DMR",
+    "tier": "B",
+    "tags": ["Hidden gem", "Hard to use"],
+    "role": "Hard-hitting long-angle DMR",
+    "bestAt": "Holding long angles with deliberate first shots: 2 chest hits kill, and a headshot one-shots inside 10 m. It has the slowest fire rate and worst control of the DMRs, so make every shot count.",
+    "shines": "Medium and large maps, for skilled players who land 2 hits from long angles. A hidden gem that performs among the best DMRs.",
+    "unlock": "Career Rank 33",
+    "build": {
+      "name": "Two-tap",
+      "notes": "The Lightened Suppressor, 560MM Factory barrel, 10RND Fast Mag and Match Grade ammo are the core. The Slim Angled grip and PVQ-31 4x round it out.",
+      "parts": [
+        { "slot": "Scope", "name": "PVQ-31 4.00x", "level": 22, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 30, "points": 30 },
+        { "slot": "Barrel", "name": "560MM Factory", "level": 0, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 32, "points": 25 },
+        { "slot": "Magazine", "name": "10RND Fast Mag", "level": 25, "points": 10 },
+        { "slot": "Ammunition", "name": "Match Grade", "level": 37, "points": 10 }
+      ]
+    },
+    "alt": {
+      "name": "Longshot",
+      "when": "Bigger maps and longer lanes, with a 6x and stubby grip",
+      "parts": [
+        { "slot": "Scope", "name": "SSDS 6.00X", "level": 24, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 30, "points": 30 },
+        { "slot": "Barrel", "name": "560MM Factory", "level": 0, "points": 5 },
+        { "slot": "Underbarrel", "name": "Stippled Stubby", "level": 23, "points": 35 },
+        { "slot": "Magazine", "name": "10RND Fast Mag", "level": 25, "points": 10 },
+        { "slot": "Ammunition", "name": "Match Grade", "level": 37, "points": 10 }
+      ]
+    },
+    "stats": {
+      "rpm": 150,
+      "magazine": 10,
+      "velocity": 680,
+      "adsMs": 367,
+      "reloadS": 3,
+      "headshot": 1.5,
+      "hitscanM": 11.3,
+      "damage": [
+        { "from": 0, "body": 66.7, "hits": 2 },
+        { "from": 10, "body": 57, "hits": 2 },
+        { "from": 20, "body": 52.5, "hits": 2 }
+      ]
+    }
+  },
+  {
+    "id": "m277",
+    "name": "M277",
+    "class": "Carbine",
+    "tier": "B",
+    "tags": ["Hard to use"],
+    "role": "Tap-fire mid-long carbine",
+    "bestAt": "Mid-to-long range tap-firing: a 4-shot kill out to impressive ranges and fast 592 m/s bullets let it reach snipers and far targets. Full auto up close is unpredictable and mags are small, so play it like a light DMR.",
+    "shines": "Big Conquest maps where you fight at 40 m and beyond; avoid close-quarters play. One of the best early unlocks, at Career Rank 11.",
+    "unlock": "Career Rank 11",
+    "build": {
+      "name": "Long Custom",
+      "notes": "The 16\" Custom barrel is in every recent build. The Compensated Brake and Classic Vertical grip tame its heavy recoil, and the 25RND Magazine fixes the small base mag.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 3, "points": 10 },
+        { "slot": "Muzzle", "name": "Compensated Brake", "level": 28, "points": 20 },
+        { "slot": "Barrel", "name": "16\" Custom", "level": 7, "points": 10 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 35, "points": 35 },
+        { "slot": "Magazine", "name": "25RND Magazine", "level": 25, "points": 20 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 720,
+      "magazine": 20,
+      "velocity": 592,
+      "adsMs": 200,
+      "reloadS": 2.4,
+      "headshot": 1.4,
+      "hitscanM": 9.9,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 75, "body": 20.6, "hits": 5 }
+      ]
+    }
+  },
+  {
+    "id": "l85a3",
+    "name": "L85A3",
+    "class": "Assault Rifle",
+    "tier": "B",
+    "tags": ["Hidden gem"],
+    "role": "Long-range laser rifle",
+    "bestAt": "Long-range beaming: the fastest bullets in its class (778 m/s) and low recoil, but a slow 635 rpm and a 4-hit kill. Hold long lanes and outrange rifles with slower bullets.",
+    "shines": "Open Conquest maps and long sightlines. Overlooked, but it performs solidly; its slow kill speed loses close duels, so avoid tight maps.",
+    "unlock": "Assignment: Rapid Fire 3",
+    "build": {
+      "name": "Ranged",
+      "notes": "The long 646MM LSW barrel, Classic Vertical grip and BAKER 3x optic make the most of its bullet speed and stability.",
+      "parts": [
+        { "slot": "Scope", "name": "BAKER 3.00X", "level": 15, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 32, "points": 30 },
+        { "slot": "Barrel", "name": "646MM LSW", "level": 30, "points": 10 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 17, "points": 35 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 9, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 635,
+      "magazine": 30,
+      "velocity": 778,
+      "adsMs": 250,
+      "reloadS": 2.8,
+      "headshot": 1.4,
+      "hitscanM": 13,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "ef88",
+    "name": "EF88",
+    "class": "Assault Rifle",
+    "tier": "B",
+    "tags": [],
+    "role": "Mid-range generalist",
+    "bestAt": "A steady mid-range all-rounder: 675 rpm, 26 damage, 670 m/s bullets and fairly easy recoil, with middle-of-the-pack kill speed. It does nothing badly but nothing best.",
+    "shines": "Mid-range fights on both small and large maps. It was a Season 4 Battle Pass gun with no catch-up unlock, so use it if you own it but don't chase it.",
+    "unlock": "Season 4 Battle Pass (Benthic Tomb path, tier 11)",
+    "build": {
+      "name": "Mid",
+      "notes": "The 24\" HBAR is the go-to barrel for this gun. The Full Angled grip and Aftermarket Buffer add recoil control.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": null, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 30, "points": 25 },
+        { "slot": "Barrel", "name": "24\" HBAR", "level": 31, "points": 10 },
+        { "slot": "Underbarrel", "name": "Full Angled", "level": 7, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 10, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "Aftermarket Buffer", "level": 22, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 675,
+      "magazine": 30,
+      "velocity": 670,
+      "adsMs": 250,
+      "reloadS": 2.4,
+      "headshot": 1.34,
+      "hitscanM": 11.2,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 6 },
+        { "from": 75, "body": 17.2, "hits": 7 }
+      ]
+    }
+  },
+  {
+    "id": "mk-24",
+    "name": "MK 24",
+    "class": "Assault Rifle",
+    "tier": "B",
+    "tags": ["New", "Hard to use", "Overhyped"],
+    "role": "Mid-range headshot rifle",
+    "bestAt": "Tapping heads at 20–75 m: the highest headshot multiplier of any AR (1.8x) means 2 headshots save a bullet at every range. On body shots it is a worse AK4D with slow bullets, so fight from cover, aim high and lead targets.",
+    "shines": "Worth it only if you reliably land headshots; avoid it in close quarters. It gets attention because it is new and a free Battle Pass unlock, not because it is strong.",
+    "unlock": "Season 5 Battle Pass (free) — Audacious Breach path, tier 11",
+    "build": {
+      "name": "Headhunter",
+      "notes": "The 18\" GBR barrel and Hollow Points are the core of this gun. The 30RND Magazine fixes the small 20-round base mag but unlocks late, at weapon level 40.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75X", "level": 35, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 24, "points": 30 },
+        { "slot": "Barrel", "name": "18\" GBR", "level": 8, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 16, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 40, "points": 25 },
+        { "slot": "Ammunition", "name": "Hollow Points", "level": 34, "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "Ranged",
+      "when": "Open maps (Area 51, Vegas Strip) for headshots past 40 m",
+      "parts": [
+        { "slot": "Scope", "name": "BAKER 3.00X", "level": null, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 24, "points": 30 },
+        { "slot": "Barrel", "name": "18\" GBR", "level": 8, "points": 5 },
+        { "slot": "Underbarrel", "name": "6H64 Vertical", "level": 28, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 40, "points": 25 },
+        { "slot": "Ammunition", "name": "Hollow Points", "level": 34, "points": 5 }
+      ]
+    },
+    "stats": {
+      "rpm": 635,
+      "magazine": 20,
+      "velocity": 556,
+      "adsMs": 250,
+      "reloadS": 2.5,
+      "headshot": 1.8,
+      "hitscanM": 9.3,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "m240l",
+    "name": "M240L",
+    "class": "LMG",
+    "tier": "B",
+    "tags": ["Hidden gem"],
+    "role": "Hard-hitting mid-range belt-fed",
+    "bestAt": "Fighting from cover at 15–50 m: 35 damage gives 3-shot kills at 600 rpm, and its 4.25 s reload is quick for a belt-fed. Use the 75-round box for sustained suppression.",
+    "shines": "Mid-size maps and holding lanes. A hidden gem that performs much better than its reputation.",
+    "unlock": "Assignment: Bullet Storm 2",
+    "build": {
+      "name": "Versatile",
+      "notes": "The 24\" Bravo barrel is the key part. The 75RND Belt Box adds ammo without the higher cost of a bigger box.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 9, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 39, "points": 30 },
+        { "slot": "Barrel", "name": "24\" Bravo", "level": 4, "points": 10 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 16, "points": 25 },
+        { "slot": "Magazine", "name": "75RND Belt Box", "level": 17, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Right Accessory", "name": "50 MW Violet", "level": "S2 Hardware 1", "points": 10 }
+      ]
+    },
+    "alt": {
+      "name": "Bipod",
+      "when": "Holding a long lane from a mount",
+      "parts": [
+        { "slot": "Scope", "name": "PAS-35 3.00X", "level": 36, "points": 25 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 28, "points": 25 },
+        { "slot": "Barrel", "name": "24\" Bravo", "level": 4, "points": 10 },
+        { "slot": "Underbarrel", "name": "Bipod", "level": 0, "points": 10 },
+        { "slot": "Magazine", "name": "100RND Belt Box", "level": 31, "points": 25 },
+        { "slot": "Ammunition", "name": "Tungsten Core", "level": 13, "points": 5 }
+      ]
+    },
+    "stats": {
+      "rpm": 600,
+      "magazine": 50,
+      "velocity": 590,
+      "adsMs": 433,
+      "reloadS": 4.2,
+      "headshot": 1.4,
+      "hitscanM": 9.8,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 20, "body": 26, "hits": 4 },
+        { "from": 75, "body": 20.6, "hits": 5 }
+      ]
+    }
+  },
+  {
+    "id": "qbz-192",
+    "name": "QBZ-192",
+    "class": "Carbine",
+    "tier": "B",
+    "tags": ["Easy to use"],
+    "role": "Stable mid-range all-rounder",
+    "bestAt": "Steady mid-range fire at 20–60 m from cover: 25 damage at ~771 rpm (4-shot kill), fast 608 m/s bullets and low recoil variation make consecutive hits easy. A reliable lane holder, not a close-range brawler.",
+    "shines": "Big maps with mid-range lanes, and early on as the best carbine before Career Rank 22. It loses close fights to the SG 553R and M4A1 and has few attachment options.",
+    "unlock": "Assignment: Danger Close 1",
+    "build": {
+      "name": "All-Range",
+      "notes": "The cheap 14.5\" Common barrel adds range, and the Standard Suppressor is the only suppressor this gun can use. The build leaves spare points to spend as you like.",
+      "parts": [
+        { "slot": "Scope", "name": "CCO 2.00x", "level": 0, "points": 10 },
+        { "slot": "Muzzle", "name": "Standard Suppressor", "level": 17, "points": 20 },
+        { "slot": "Barrel", "name": "14.5\" Common", "level": 16, "points": 5 },
+        { "slot": "Underbarrel", "name": "Ribbed Vertical", "level": 6 },
+        { "slot": "Magazine", "name": "36RND Magazine", "level": 24, "points": 15 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "CQB",
+      "when": "Small maps and indoor objectives",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 1, "points": 10 },
+        { "slot": "Muzzle", "name": "Standard Suppressor", "level": 17, "points": 20 },
+        { "slot": "Barrel", "name": "10.5\" Cryogenic", "level": "S3 Hardware 6", "points": 20 },
+        { "slot": "Underbarrel", "name": "Folding Stubby", "level": 9, "points": 20 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Synthetic Tip", "level": 38, "points": 25 }
+      ]
+    },
+    "stats": {
+      "rpm": 771,
+      "magazine": 30,
+      "velocity": 608,
+      "adsMs": 200,
+      "reloadS": 2.6,
+      "headshot": 1.4,
+      "hitscanM": 10.1,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 10, "body": 21.6, "hits": 5 },
+        { "from": 20, "body": 17.8, "hits": 6 },
+        { "from": 35, "body": 17.2, "hits": 6 },
+        { "from": 75, "body": 14.7, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "l115",
+    "name": "L115",
+    "class": "Sniper Rifle",
+    "tier": "B",
+    "tags": [],
+    "role": "Long-range anchor sniper (100-133 m)",
+    "bestAt": "A patient long-range rifle for holding a lane far from the fight. Its 100–133 m sweet spot was the deepest before the ELR-40, but its bullets are the slowest of the group (664 m/s).",
+    "shines": "Big Conquest maps with long sightlines; poor on small maps. The ELR-40's standard mag now out-reaches it.",
+    "unlock": "Past Battle Pass (Recruit path, tier 5)",
+    "build": {
+      "name": "Longbow",
+      "notes": "The 32\" Custom barrel and Match Grade ammo fix its poor velocity and drop. The Range Finder, NFX 8x scope and DLC Bolt complete it.",
+      "parts": [
+        { "slot": "Scope", "name": "NFX 8.00X", "level": 5, "points": 10 },
+        { "slot": "Muzzle", "name": "Standard Suppressor", "level": 4, "points": 20 },
+        { "slot": "Barrel", "name": "32\" Custom", "level": 18, "points": 5 },
+        { "slot": "Underbarrel", "name": "Full Angled", "level": 8, "points": 5 },
+        { "slot": "Magazine", "name": "5RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Match Grade", "level": 30, "points": 10 },
+        { "slot": "Ergonomics", "name": "DLC Bolt", "level": 29, "points": 30 },
+        { "slot": "Left Accessory", "name": "Range Finder", "level": 37, "points": 15 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 46,
+      "magazine": 5,
+      "velocity": 664,
+      "adsMs": 367,
+      "reloadS": 2.8,
+      "headshot": 1.75,
+      "sweetSpots": [
+        { "from": 100, "to": 133, "label": "Body one-shot" }
+      ]
+    }
+  },
+  {
+    "id": "pw7a2",
+    "name": "PW7A2",
+    "class": "SMG",
+    "tier": "B",
+    "tags": [],
+    "role": "Ranged SMG / lane holder",
+    "bestAt": "Reaching out: the fastest bullets (576 m/s) and flattest damage curve of any SMG, at 947 rpm. It kills slowest up close but beats most SMGs at 30–80 m, so use it for objective play on bigger maps.",
+    "shines": "Conquest and medium-to-large maps, for Support or Engineer players who need an SMG that still fights at 30–50 m. A solid hidden pick; skip it for tight close quarters.",
+    "unlock": "Career Rank 19",
+    "build": {
+      "name": "Ranged",
+      "notes": "The 180MM Cryogenic barrel, Long Suppressor and Synthetic Tip ammo are the usual core and extend its damage range and velocity. The 50 MW Blue laser helps hipfire.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 1, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 27, "points": 25 },
+        { "slot": "Barrel", "name": "180MM Cryogenic", "level": "S3 Hardware 6", "points": 20 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Synthetic Tip", "level": 38, "points": 20 },
+        { "slot": "Right Accessory", "name": "50 MW Blue", "level": 26, "points": 20 }
+      ]
+    },
+    "alt": {
+      "name": "Sustain",
+      "when": "Holding objectives against several enemies",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 1, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 27, "points": 25 },
+        { "slot": "Barrel", "name": "180MM Prototype", "level": 14, "points": 10 },
+        { "slot": "Magazine", "name": "40RND Magazine", "level": 34, "points": 25 },
+        { "slot": "Ammunition", "name": "Synthetic Tip", "level": 38, "points": 20 },
+        { "slot": "Right Accessory", "name": "5 MW Green", "level": 12, "points": 10 }
+      ]
+    },
+    "stats": {
+      "rpm": 947,
+      "magazine": 30,
+      "velocity": 576,
+      "adsMs": 167,
+      "reloadS": 2.2,
+      "headshot": 1.4,
+      "hitscanM": 9.6,
+      "damage": [
+        { "from": 0, "body": 17.2, "hits": 6 },
+        { "from": 20, "body": 14.7, "hits": 8 },
+        { "from": 75, "body": 12.9, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "psr",
+    "name": "PSR",
+    "class": "Sniper Rifle",
+    "tier": "B",
+    "tags": [],
+    "role": "Long-range sweet-spot sniper (100-120 m)",
+    "bestAt": "Long-range shots with follow-ups: a 100–120 m body-shot sweet spot and a magazine that can hold 10 rounds. A slightly longer-reach alternative to the M2010, with slower 680 m/s bullets.",
+    "shines": "Large maps with 100–120 m cross-objective lanes. A niche pick, though it performs slightly better than the M2010 this season.",
+    "unlock": "Assignment: Deadeye 2",
+    "build": {
+      "name": "Overwatch",
+      "notes": "The standard bolt-sniper setup: the Range Finder to find the 90–120 m band, Match Grade to offset the low velocity, and DLC Bolt for faster follow-ups.",
+      "parts": [
+        { "slot": "Scope", "name": "NFX 8.00X", "level": 18, "points": 10 },
+        { "slot": "Muzzle", "name": "Standard Suppressor", "level": 21, "points": 20 },
+        { "slot": "Barrel", "name": "27\" MK22", "level": 0, "points": 5 },
+        { "slot": "Underbarrel", "name": "Full Angled", "level": 9, "points": 5 },
+        { "slot": "Magazine", "name": "7RND Magazine", "level": 9, "points": 5 },
+        { "slot": "Ammunition", "name": "Match Grade", "level": 3, "points": 10 },
+        { "slot": "Ergonomics", "name": "DLC Bolt", "level": 13, "points": 30 },
+        { "slot": "Left Accessory", "name": "Range Finder", "level": 7, "points": 15 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 38,
+      "magazine": 10,
+      "velocity": 680,
+      "adsMs": 367,
+      "reloadS": 3.4,
+      "headshot": 1.75,
+      "sweetSpots": [
+        { "from": 100, "to": 120, "label": "Body one-shot" }
+      ],
+      "bodyDamage": [
+        { "from": 0, "body": 80 },
+        { "from": 80, "body": 85 },
+        { "from": 85, "body": 89 },
+        { "from": 90, "body": 93 },
+        { "from": 95, "body": 97 },
+        { "from": 100, "body": 100 }
+      ]
+    }
+  },
+  {
+    "id": "l110",
+    "name": "L110",
+    "class": "LMG",
+    "tier": "B",
+    "tags": ["Easy to use"],
+    "role": "All-round mid-range belt-fed",
+    "bestAt": "Mid-range suppression at 20–60 m with a 1.75x: 720 rpm, 100 rounds and the fastest bullets of any 100-round LMG (740 m/s), with manageable recoil. Stay mobile between cover; it is not a close-quarters monster.",
+    "shines": "A safe first LMG on any map, available from Career Rank 1. It performs only middling this season, and the Z84M, DRS-IAR and M123K all outperform it.",
+    "unlock": "Available from the start",
+    "build": {
+      "name": "Versatile",
+      "notes": "The 465MM LB barrel adds range. The cheap 100RND Belt Pouch leaves points for the suppressor and grip.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 5, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 39, "points": 30 },
+        { "slot": "Barrel", "name": "465MM LB", "level": 3, "points": 10 },
+        { "slot": "Underbarrel", "name": "Ribbed Stubby", "level": 18, "points": 30 },
+        { "slot": "Magazine", "name": "100RND Belt Pouch", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Right Accessory", "name": "50 MW Violet", "level": "S2 Hardware 1", "points": 10 }
+      ]
+    },
+    "alt": {
+      "name": "Hose",
+      "when": "Small maps and interiors",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 3, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 28, "points": 25 },
+        { "slot": "Barrel", "name": "349MM Fluted", "level": 37, "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 16, "points": 25 },
+        { "slot": "Magazine", "name": "100RND Belt Pouch", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Right Accessory", "name": "5 MW Green", "level": 0, "points": 10 }
+      ]
+    },
+    "stats": {
+      "rpm": 720,
+      "magazine": 100,
+      "velocity": 740,
+      "adsMs": 433,
+      "reloadS": 6.5,
+      "headshot": 1.4,
+      "hitscanM": 12.3,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "interdictor",
+    "name": "Interdictor",
+    "class": "Sniper Rifle",
+    "tier": "B",
+    "tags": ["Hard to use"],
+    "role": "Extreme-range anti-sniper (120-160 m)",
+    "bestAt": "Counter-sniping and picking off long-range targets on huge maps: a heavy, very slow-firing rifle (31 rpm, 732 m/s) with a 120–160 m sweet spot.",
+    "shines": "Only for big open maps with fights beyond 120 m. Weak this season, and the ELR-40's standard mag (150–180 m) now overlaps its niche.",
+    "unlock": "Season 4 Battle Pass — S4 catch-up challenge added in S5",
+    "build": {
+      "name": "Counter-snipe",
+      "notes": "The Long Suppressor, 32\" Custom barrel, Match Grade, Range Finder and Anti-Glare Coating are the agreed core, with the cheap 5RND Magazine and an NFX 8x scope.",
+      "parts": [
+        { "slot": "Scope", "name": "NFX 8.00X", "level": null, "points": 10 },
+        { "slot": "Optic Accessory", "name": "Anti-Glare Coating", "level": 39, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 39, "points": 25 },
+        { "slot": "Barrel", "name": "32\" Custom", "level": 6, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 23, "points": 15 },
+        { "slot": "Magazine", "name": "5RND Magazine", "level": 0 },
+        { "slot": "Ammunition", "name": "Match Grade", "level": 33, "points": 10 },
+        { "slot": "Left Accessory", "name": "Range Finder", "level": 38, "points": 15 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 31,
+      "magazine": 5,
+      "velocity": 732,
+      "adsMs": 433,
+      "reloadS": 3.5,
+      "headshot": 1.75,
+      "sweetSpots": [
+        { "from": 120, "to": 160, "label": "Body one-shot" }
+      ]
+    }
+  },
+  {
+    "id": "pw5a3",
+    "name": "PW5A3",
+    "class": "SMG",
+    "tier": "B",
+    "tags": ["Easy to use"],
+    "role": "Forgiving all-round SMG",
+    "bestAt": "Very low recoil makes it the easiest SMG to land shots with at close-mid range. It kills like a slower SGX (771 rpm), so pick it for reliable objective play rather than raw speed.",
+    "shines": "New and controller players: Season 5 cut controller recoil compensation from 11% to 5%, so low-recoil guns gain value. It is comfortable, not fast, and unlocks at Career Rank 6.",
+    "unlock": "Career Rank 6",
+    "build": {
+      "name": "Versatile",
+      "notes": "The 225MM Cryogenic barrel and Synthetic Tip extend damage range, while the Long Suppressor and Slim Angled grip handle control and ADS. The clean Iron Sights save points for the rest of the build.",
+      "parts": [
+        { "slot": "Scope", "name": "Iron Sights", "level": 0, "points": 5 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 24, "points": 25 },
+        { "slot": "Barrel", "name": "225MM Cryogenic", "level": "S3 Hardware 6", "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 38, "points": 20 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 5, "points": 10 },
+        { "slot": "Ammunition", "name": "Synthetic Tip", "level": 40, "points": 20 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 771,
+      "magazine": 30,
+      "velocity": 408,
+      "adsMs": 167,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 6.8,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 10, "body": 20.6, "hits": 5 },
+        { "from": 20, "body": 17.2, "hits": 6 },
+        { "from": 35, "body": 14.7, "hits": 8 },
+        { "from": 75, "body": 12.9, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "m250",
+    "name": "M250",
+    "class": "LMG",
+    "tier": "B",
+    "tags": [],
+    "role": "Long-range lane holder",
+    "bestAt": "Holding long lanes with a 3x: a 4-shot kill at 675 rpm, fast 724 m/s bullets and no recorded damage drop-off make it the best LMG past 75 m. Avoid close quarters, where it is the slowest 4-shot gun.",
+    "shines": "Big Conquest maps and long Breakthrough sectors. A middling performer overall; it is built for range, not roaming.",
+    "unlock": "Career Rank 46",
+    "build": {
+      "name": "Lane",
+      "notes": "The 556MM Prototype barrel, Classic Vertical grip and BAKER 3x are the agreed core for range. The Lightened Suppressor is available from level 0 on this gun.",
+      "parts": [
+        { "slot": "Scope", "name": "BAKER 3.00X", "level": 2, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 0, "points": 30 },
+        { "slot": "Barrel", "name": "556MM Prototype", "level": 3, "points": 10 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 34, "points": 35 },
+        { "slot": "Magazine", "name": "50RND Belt Pouch", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "Bipod",
+      "when": "Holding lanes from a mount, with the QD Grip Pod",
+      "parts": [
+        { "slot": "Scope", "name": "BAKER 3.00X", "level": 2, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 0, "points": 30 },
+        { "slot": "Barrel", "name": "556MM Prototype", "level": 3, "points": 10 },
+        { "slot": "Underbarrel", "name": "QD Grip Pod", "level": 18, "points": 30 },
+        { "slot": "Magazine", "name": "50RND Belt Pouch", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "stats": {
+      "rpm": 675,
+      "magazine": 50,
+      "velocity": 724,
+      "adsMs": 433,
+      "reloadS": 5.8,
+      "headshot": 1.4,
+      "hitscanM": 12.1,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 }
+      ],
+      "damageKnownToM": 10
+    }
+  },
+  {
+    "id": "kts100-mk8",
+    "name": "KTS100 MK8",
+    "class": "LMG",
+    "tier": "B",
+    "tags": ["Easy to use"],
+    "role": "Long-range lane-holding laser",
+    "bestAt": "Anchoring long lanes and picking off targets 50 m+ away: the easiest LMG to control, with fast 808 m/s bullets, but at 514 rpm and 26 damage it is the slowest killer. Never take close-quarters duels.",
+    "shines": "Big open Conquest maps and long Breakthrough lanes. Its laser control looks great, but it is mediocre in multiplayer.",
+    "unlock": "Assignment: Bullet Storm 1",
+    "build": {
+      "name": "Lane",
+      "notes": "The 508MM MK8 barrel is the key part, and the Match Trigger helps its sluggish fire rate. The 60RND Drum Mag and BAKER 3x suit long lanes.",
+      "parts": [
+        { "slot": "Scope", "name": "BAKER 3.00X", "level": 9, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 37, "points": 30 },
+        { "slot": "Barrel", "name": "508MM MK8", "level": 0, "points": 10 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 21, "points": 25 },
+        { "slot": "Magazine", "name": "60RND Drum Mag", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "Match Trigger", "level": 16, "points": 15 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 514,
+      "magazine": 60,
+      "velocity": 808,
+      "adsMs": 367,
+      "reloadS": 3.2,
+      "headshot": 1.4,
+      "hitscanM": 13.5,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "kord-6p67",
+    "name": "KORD 6P67",
+    "class": "Assault Rifle",
+    "tier": "B",
+    "tags": ["Easy to use"],
+    "role": "Easy mid-range laser",
+    "bestAt": "Beaming at mid range: 900 rpm, the easiest recoil in its class and fast 724 m/s bullets. But 5 hits to kill means it loses straight duels to 3- and 4-hit rifles, so play it as a forgiving lane rifle.",
+    "shines": "A good pick for new or controller players. Easy to handle but underperforms; experienced players get more from the NVO-228E, M433 or B36A4.",
+    "unlock": "Assignment: Rapid Fire 1",
+    "build": {
+      "name": "Laser",
+      "notes": "The 415MM Cryogenic barrel and Slim Angled grip keep it a laser, and Hollow Point ammo adds damage.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-M 1.75x", "level": 16, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 32, "points": 25 },
+        { "slot": "Barrel", "name": "415MM Cryogenic", "level": "S3 Hardware 6", "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 23, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Hollow Point", "level": 25, "points": 15 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 900,
+      "magazine": 30,
+      "velocity": 724,
+      "adsMs": 250,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 12.1,
+      "damage": [
+        { "from": 0, "body": 20.6, "hits": 5 },
+        { "from": 20, "body": 17.2, "hits": 6 },
+        { "from": 75, "body": 14.7, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "kv9",
+    "name": "KV9",
+    "class": "SMG",
+    "tier": "B",
+    "tags": ["Hidden gem", "Hard to use"],
+    "role": "Laser-fast duelist (high skill)",
+    "bestAt": "Melting single targets at close-mid range: at 1,080 rpm it is the fastest-killing SMG past 10 m and second-fastest inside it. But it empties its 23-round mag in ~1.3 s and has heavy recoil since a nerf.",
+    "shines": "1v1s at 10–25 m and finishing weakened enemies; poor for holding a point against several enemies. Great on paper but only average in practice, and it unlocks at Career Rank 45.",
+    "unlock": "Career Rank 45",
+    "build": {
+      "name": "Duelist",
+      "notes": "The Long Suppressor and cheap 6.5\" Extended barrel add control and range, and the Slim Angled grip keeps ADS snappy. The 23RND Magazine stays because the bigger mag costs too many points.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 18, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 28, "points": 25 },
+        { "slot": "Barrel", "name": "6.5\" Extended", "level": 10, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 38, "points": 20 },
+        { "slot": "Magazine", "name": "23RND Magazine", "level": 26, "points": 25 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Top Accessory", "name": "5 MW Green", "level": 21, "points": 10 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 1080,
+      "magazine": 17,
+      "velocity": 362,
+      "adsMs": 167,
+      "reloadS": 2.4,
+      "headshot": 1.4,
+      "hitscanM": 6,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 10, "body": 20.6, "hits": 5 },
+        { "from": 20, "body": 17.2, "hits": 6 },
+        { "from": 35, "body": 14.7, "hits": 8 },
+        { "from": 75, "body": 12.9, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "m357-trait",
+    "name": "M357 Trait",
+    "class": "Pistol",
+    "tier": "B",
+    "tags": [],
+    "role": "Point-blank hipfire revolver",
+    "bestAt": "Point-blank hipfire in tight rooms: an 8-round revolver that kills in 2 shots up close and fires faster than the M44, for the fastest pistol kill under 10 m. It trails the M44 at mid range.",
+    "shines": "A close-quarters backup for Recon on small or urban maps. Take the M44 instead if your fights happen at 10–20 m.",
+    "unlock": "Assignment: Season 1 Hardware 3",
+    "build": {
+      "name": "Hipfire",
+      "notes": "The Laser/Light Combo Green tightens hipfire, and the 8RND Moon Clip and Speed Holster cover the revolver's slow reload and draw.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 6, "points": 10 },
+        { "slot": "Barrel", "name": "5\" Factory", "level": 0, "points": 10 },
+        { "slot": "Underbarrel", "name": "Laser/Light Combo Green", "level": 26, "points": 20 },
+        { "slot": "Magazine", "name": "8RND Moon Clip", "level": 14, "points": 10 },
+        { "slot": "Ergonomics", "name": "Speed Holster", "level": "S3 Hardware 3", "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 225,
+      "magazine": 8,
+      "velocity": 410,
+      "adsMs": 167,
+      "reloadS": 3.1,
+      "headshot": 1.5,
+      "hitscanM": 6.8,
+      "damage": [
+        { "from": 0, "body": 50, "hits": 2 }
+      ],
+      "damageKnownToM": 10
+    }
+  },
+  {
+    "id": "rpk-74m",
+    "name": "RPK-74M",
+    "class": "LMG",
+    "tier": "B",
+    "tags": ["Easy to use"],
+    "role": "Long-range laser LMG",
+    "bestAt": "Accurate long-range fire: easy to control with fast 808 m/s bullets, it tracks well at 50 m and beyond. It needs 5 chest hits even up close, so keep it at range and lay down accurate suppressive fire.",
+    "shines": "Big Conquest maps and long lanes, or holding a lane on a QD Grip Pod bipod. Strong on paper, but its 5-shot kill loses trades, giving it the worst results of any LMG.",
+    "unlock": "Past Battle Pass (Warlords Hunters path, tier 11)",
+    "build": {
+      "name": "Laser",
+      "notes": "The 590MM Factory barrel, Slim Angled grip, Aftermarket Buffer, Synthetic Tip and BAKER 3x are the core. The 45RND Magazine keeps it from running dry in long lanes.",
+      "parts": [
+        { "slot": "Scope", "name": "BAKER 3.00X", "level": 0, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 24, "points": 25 },
+        { "slot": "Barrel", "name": "590MM Factory", "level": 0, "points": 10 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 17, "points": 25 },
+        { "slot": "Magazine", "name": "45RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Synthetic Tip", "level": 38, "points": 20 },
+        { "slot": "Ergonomics", "name": "Aftermarket Buffer", "level": "S3 Hardware 2", "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 685,
+      "magazine": 45,
+      "velocity": 808,
+      "adsMs": 367,
+      "reloadS": 2.8,
+      "headshot": 1.4,
+      "hitscanM": 13.5,
+      "damage": [
+        { "from": 0, "body": 20.6, "hits": 5 },
+        { "from": 20, "body": 17.2, "hits": 6 },
+        { "from": 75, "body": 14.7, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "sgx",
+    "name": "SGX",
+    "class": "SMG",
+    "tier": "B",
+    "tags": ["Easy to use"],
+    "role": "Free all-rounder SMG",
+    "bestAt": "Comfortable close-mid fights and run-and-gun objective play, unlocked from rank 1. At 830 rpm with low recoil, it is a slightly faster-killing PW5A3.",
+    "shines": "The best free SMG; its weak results mostly come from new players using it as a starter gun. For longer objective fights, swap to a 36RND Magazine and 6H64 Vertical.",
+    "unlock": "Available from the start",
+    "build": {
+      "name": "Versatile",
+      "notes": "The cheap 8\" Extended barrel adds range, the Lightened Suppressor and Slim Angled grip keep it snappy, and the 50 MW Blue laser aids hipfire.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 15, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 36, "points": 30 },
+        { "slot": "Barrel", "name": "8\" Extended", "level": 16, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 35, "points": 20 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 22, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Top Accessory", "name": "50 MW Blue", "level": 27, "points": 20 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 830,
+      "magazine": 30,
+      "velocity": 378,
+      "adsMs": 167,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 6.3,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 10, "body": 20.6, "hits": 5 },
+        { "from": 20, "body": 17.2, "hits": 6 },
+        { "from": 35, "body": 14.7, "hits": 8 },
+        { "from": 75, "body": 12.9, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "grt-cps",
+    "name": "GRT-CPS",
+    "class": "DMR",
+    "tier": "C",
+    "tags": ["Hidden gem", "Easy to use"],
+    "role": "Stable low-recoil mid-range DMR",
+    "bestAt": "Steady mid-range lanes: the most controllable DMR, with a 20-round base mag, but slow to kill (4 chest hits, or 3 with a headshot inside 35 m). An easy laser for patient players.",
+    "shines": "Players who struggle with SVDM or M39 recoil. Not the strongest DMR on paper, but easy to handle and better than it looks.",
+    "unlock": "Past Battle Pass (Death Stalkers path, tier 14)",
+    "build": {
+      "name": "Steady",
+      "notes": "Synthetic Tip is the key pick to help its weak damage at range. The Ribbed Vertical grip cuts recoil, and the PVQ-31 4x suits mid-range lanes.",
+      "parts": [
+        { "slot": "Scope", "name": "PVQ-31 4.00x", "level": 23, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 38, "points": 30 },
+        { "slot": "Barrel", "name": "20\" Factory", "level": 0, "points": 5 },
+        { "slot": "Underbarrel", "name": "Ribbed Vertical", "level": 16, "points": 20 },
+        { "slot": "Magazine", "name": "20RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Synthetic Tip", "level": 40, "points": 30 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 360,
+      "magazine": 20,
+      "velocity": 760,
+      "adsMs": 250,
+      "reloadS": 2.8,
+      "headshot": 1.5,
+      "hitscanM": 12.7,
+      "damage": [
+        { "from": 0, "body": 29.5, "hits": 4 },
+        { "from": 35, "body": 27.5, "hits": 4 },
+        { "from": 75, "body": 26.3, "hits": 4 }
+      ]
+    }
+  },
+  {
+    "id": "lmr27",
+    "name": "LMR27",
+    "class": "DMR",
+    "tier": "C",
+    "tags": [],
+    "role": "Fast-firing mid-range DMR",
+    "bestAt": "A precise semi-auto rifle for 30–60 m: the quickest follow-up shots of any DMR, but lower damage (4 chest hits). A good bridge for AR players.",
+    "shines": "Medium maps where most fights happen at 30–60 m. A mid-pack performer this season, neither strong nor weak.",
+    "unlock": "Career Rank 16",
+    "build": {
+      "name": "Rapid",
+      "notes": "Its 4-hit kill needs volume, so the 6H64 Vertical grip, 15RND Fast Mag and 24\" Extended barrel matter most.",
+      "parts": [
+        { "slot": "Scope", "name": "PVQ-31 4.00x", "level": 17, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 36, "points": 30 },
+        { "slot": "Barrel", "name": "24\" Extended", "level": 15, "points": 5 },
+        { "slot": "Underbarrel", "name": "6H64 Vertical", "level": 13, "points": 25 },
+        { "slot": "Magazine", "name": "15RND Fast Mag", "level": 19, "points": 25 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 450,
+      "magazine": 10,
+      "velocity": 800,
+      "adsMs": 250,
+      "reloadS": 3,
+      "headshot": 1.34,
+      "hitscanM": 13.3,
+      "damage": [
+        { "from": 0, "body": 29.5, "hits": 4 },
+        { "from": 20, "body": 27.5, "hits": 4 },
+        { "from": 75, "body": 26.3, "hits": 4 }
+      ]
+    }
+  },
+  {
+    "id": "db-12",
+    "name": "DB-12",
+    "class": "Shotgun",
+    "tier": "C",
+    "tags": [],
+    "role": "Double-tap CQB bullpup shotgun",
+    "bestAt": "Point-blank double-taps: it fires two rapid shots, one from each tube, before you need to pump. It falls off fast with range and is the weakest shotgun overall.",
+    "shines": "Only small infantry maps and interiors; on anything larger, take the M87A1. It now unlocks through the Season 1 Hardware 5 assignment.",
+    "unlock": "Season 1 Hardware 5 assignment",
+    "build": {
+      "name": "Double-tap",
+      "notes": "#00 Buckshot is the only sensible ammo for it. The Slim Handstop and 5 MW Green laser help the hipfire double-tap.",
+      "parts": [
+        { "slot": "Scope", "name": "2PRO 1.25X", "level": 24, "points": 10 },
+        { "slot": "Muzzle", "name": "CQB Suppressor", "level": 25, "points": 30 },
+        { "slot": "Barrel", "name": "18.9\" Factory", "level": 0, "points": 10 },
+        { "slot": "Underbarrel", "name": "Slim Handstop", "level": "S1 Hardware 4", "points": 15 },
+        { "slot": "Magazine", "name": "7 Shell Dual Tubes", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "#00 Buckshot", "level": "S3 Hardware 2", "points": 20 },
+        { "slot": "Top Accessory", "name": "5 MW Green", "level": 13, "points": 10 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 150,
+      "magazine": 16,
+      "velocity": 400,
+      "adsMs": 200,
+      "reloadS": 2.3,
+      "headshot": 1,
+      "note": "Two fast shots per pump; point-blank only."
+    }
+  },
+  {
+    "id": "svdm",
+    "name": "SVDM",
+    "class": "DMR",
+    "tier": "C",
+    "tags": ["Hard to use", "Nerfed"],
+    "role": "Mid-range DMR (paced fire only)",
+    "bestAt": "Deliberate, paced shots at 30–80 m: on paper still the fastest-killing DMR, with 3 chest hits or 2 headshots. The Season 5 nerf (recoil direction 4° to 20°, slower recovery) punishes rapid fire, so tap carefully.",
+    "shines": "Only for players who tap-fire precisely; otherwise pick the M39 EMR. Badly hurt this season, especially on controller after recoil compensation dropped from 11% to 5%.",
+    "unlock": "Assignment: Deadeye 1",
+    "build": {
+      "name": "Paced",
+      "notes": "After the nerf, recoil control matters most, so this build runs the 6H64 Vertical grip and the small 10RND Magazine. Match Grade ammo and the PVQ-31 4x suit its 30–80 m range.",
+      "parts": [
+        { "slot": "Scope", "name": "PVQ-31 4.00x", "level": 5, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 39, "points": 30 },
+        { "slot": "Barrel", "name": "620MM Classic", "level": 15, "points": 5 },
+        { "slot": "Underbarrel", "name": "6H64 Vertical", "level": 12, "points": 25 },
+        { "slot": "Magazine", "name": "10RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Match Grade", "level": 24, "points": 10 },
+        { "slot": "Ergonomics", "name": "Improved Mag Catch", "level": 25, "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "Drum",
+      "when": "Objective holds, if you have good tap discipline",
+      "parts": [
+        { "slot": "Scope", "name": "PVQ-31 4.00x", "level": 5, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 39, "points": 30 },
+        { "slot": "Barrel", "name": "620MM Classic", "level": 15, "points": 5 },
+        { "slot": "Magazine", "name": "20RND Magazine", "level": 25, "points": 45 },
+        { "slot": "Ammunition", "name": "Match Grade", "level": 24, "points": 10 }
+      ]
+    },
+    "stats": {
+      "rpm": 300,
+      "magazine": 10,
+      "velocity": 640,
+      "adsMs": 300,
+      "reloadS": 2.5,
+      "headshot": 1.5,
+      "hitscanM": 10.7,
+      "damage": [
+        { "from": 0, "body": 41.7, "hits": 3 },
+        { "from": 20, "body": 37.7, "hits": 3 },
+        { "from": 75, "body": 34.3, "hits": 3 }
+      ]
+    }
+  },
+  {
+    "id": "m60",
+    "name": "M/60",
+    "class": "LMG",
+    "tier": "C",
+    "tags": [],
+    "role": "Bipod lane anchor",
+    "bestAt": "Holding a chokepoint or long lane from a bipod: a slow 514 rpm, but 35 damage gives 3-shot kills up close, with a 100-round belt and good control. Poor mobility and a 7.35 s reload punish roaming.",
+    "shines": "Breakthrough defense, Rush and chokepoint holds. Weak overall, though it holds objectives better than its reputation suggests.",
+    "unlock": "Available from the start",
+    "build": {
+      "name": "Anchor",
+      "notes": "The 22\" E3 Long barrel and 100RND Belt Pouch are the core. The QD Grip Pod lets you mount it and adds grip control, and Tungsten Core is a good extra.",
+      "parts": [
+        { "slot": "Scope", "name": "PAS-35 3.00X", "level": 36, "points": 25 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 27, "points": 25 },
+        { "slot": "Barrel", "name": "22\" E3 Long", "level": 4, "points": 10 },
+        { "slot": "Underbarrel", "name": "QD Grip Pod", "level": 28, "points": 30 },
+        { "slot": "Magazine", "name": "100RND Belt Pouch", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Tungsten Core", "level": 3, "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "Standard",
+      "when": "If you don't plan to mount it",
+      "parts": [
+        { "slot": "Scope", "name": "BF-2M 2.50x", "level": 11, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 27, "points": 25 },
+        { "slot": "Barrel", "name": "22\" E3 Long", "level": 4, "points": 10 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 34, "points": 35 },
+        { "slot": "Magazine", "name": "100RND Belt Pouch", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "stats": {
+      "rpm": 514,
+      "magazine": 100,
+      "velocity": 680,
+      "adsMs": 433,
+      "reloadS": 7.3,
+      "headshot": 1.4,
+      "hitscanM": 11.3,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 20, "body": 26, "hits": 4 },
+        { "from": 75, "body": 20.6, "hits": 5 }
+      ]
+    }
+  },
+  {
+    "id": "ak4d",
+    "name": "AK4D",
+    "class": "Assault Rifle",
+    "tier": "C",
+    "tags": [],
+    "role": "Hard-hitting slow-fire close-mid rifle",
+    "bestAt": "Close-mid fights where every shot counts: 35 damage kills in 3 hits out to ~20 m at a controllable 514 rpm. The 20-round mag and slow fire leave you exposed against several enemies and past 20 m.",
+    "shines": "Disciplined tap-firing on small maps. It performs poorly this season and is outclassed by the NVO-228E and TR-7.",
+    "unlock": "Career Rank 35",
+    "build": {
+      "name": "Close-Mid",
+      "notes": "The 450MM Cryogenic barrel, Slim Angled grip and 20RND Fast Mag form the close-range core, with a MINI FLEX 1x dot. Bigger mags cost too many points to be worth it.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 4, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 13, "points": 25 },
+        { "slot": "Barrel", "name": "450MM Cryogenic", "level": "S3 Hardware 6", "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 28, "points": 25 },
+        { "slot": "Magazine", "name": "20RND Fast Mag", "level": 15, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 514,
+      "magazine": 20,
+      "velocity": 680,
+      "adsMs": 250,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 11.3,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 20, "body": 26, "hits": 4 },
+        { "from": 75, "body": 20.6, "hits": 5 }
+      ]
+    }
+  },
+  {
+    "id": "usg-90",
+    "name": "USG-90",
+    "class": "SMG",
+    "tier": "C",
+    "tags": [],
+    "role": "50-round hose for objective holds",
+    "bestAt": "Clearing several enemies off a point without reloading: 900 rpm and a standard 50-round mag. It trades low per-hit damage for volume, so keep fights close.",
+    "shines": "Rush and Breakthrough defense, and Engineers who want one gun for sustained fights. Weak past ~20 m because of the low damage, and below average this season.",
+    "unlock": "Career Rank 36",
+    "build": {
+      "name": "Hose",
+      "notes": "The 264MM Cryogenic barrel and MINI FLEX dot are the core, and the CQB Suppressor adds close-range control. Polymer Case and Improved Mag Catch speed up the long reload.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 19, "points": 10 },
+        { "slot": "Muzzle", "name": "CQB Suppressor", "level": 32, "points": 30 },
+        { "slot": "Barrel", "name": "264MM Cryogenic", "level": "S3 Hardware 6", "points": 20 },
+        { "slot": "Magazine", "name": "50RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Polymer Case", "level": 17, "points": 10 },
+        { "slot": "Ergonomics", "name": "Improved Mag Catch", "level": 13, "points": 5 },
+        { "slot": "Left Accessory", "name": "50 MW Green", "level": 18, "points": 20 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 900,
+      "magazine": 50,
+      "velocity": 543,
+      "adsMs": 167,
+      "reloadS": 3,
+      "headshot": 1.4,
+      "hitscanM": 9.1,
+      "damage": [
+        { "from": 0, "body": 20.6, "hits": 5 },
+        { "from": 10, "body": 17.8, "hits": 6 },
+        { "from": 20, "body": 15, "hits": 7 },
+        { "from": 35, "body": 14.7, "hits": 8 },
+        { "from": 75, "body": 12.9, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "sor-556-mk2",
+    "name": "SOR-556 MK2",
+    "class": "Assault Rifle",
+    "tier": "C",
+    "tags": ["Easy to use"],
+    "role": "Easy-recoil long-range beamer",
+    "bestAt": "Recoil-free long-range tapping: the lowest recoil variation in its class, 768 m/s bullets and easy headshots. But at 568 rpm it is the slowest killer at every range, so stay at distance and avoid duels.",
+    "shines": "Only for long Conquest lanes or players who struggle with recoil. It is the weakest AR this season.",
+    "unlock": "Career Rank 25",
+    "build": {
+      "name": "Ranged",
+      "notes": "The 18\" Custom barrel is the key part for this gun. The Classic Vertical grip and BAKER 3x optic set it up for range.",
+      "parts": [
+        { "slot": "Scope", "name": "BAKER 3.00X", "level": 15, "points": 10 },
+        { "slot": "Muzzle", "name": "Lightened Suppressor", "level": 38, "points": 30 },
+        { "slot": "Barrel", "name": "18\" Custom", "level": 28, "points": 10 },
+        { "slot": "Underbarrel", "name": "Classic Vertical", "level": 33, "points": 35 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 568,
+      "magazine": 30,
+      "velocity": 768,
+      "adsMs": 250,
+      "reloadS": 2.4,
+      "headshot": 1.4,
+      "hitscanM": 12.8,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "sor-300sc",
+    "name": "SOR-300SC",
+    "class": "Carbine",
+    "tier": "C",
+    "tags": [],
+    "role": "Close-range hard hitter",
+    "bestAt": "Close-range fights: .300 BLK rounds give a 3-hit kill up close with low recoil variation. A slower fire rate, bouncy pattern and slow 528 m/s bullets mean you should flank and ambush with a suppressor, not hold long lanes.",
+    "shines": "Only for small maps and indoor objectives, and it performs poorly this season. The Season 5 .300 BLK change only affects REDSEC, not multiplayer.",
+    "unlock": "Past Battle Pass (Rogue Operators path, tier 21)",
+    "build": {
+      "name": "Suppressed CQB",
+      "notes": "A close-range setup with the 9\" Cryogenic barrel, Slim Angled grip, 30RND Fast Mag and Standard Suppressor for ambushes. If you lack the Season 3 Cryogenic barrel, use a cheaper one.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 1, "points": 10 },
+        { "slot": "Muzzle", "name": "Standard Suppressor", "level": 22, "points": 20 },
+        { "slot": "Barrel", "name": "9\" Cryogenic", "level": "S3 Hardware 6", "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 18, "points": 25 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 21, "points": 10 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Top Accessory", "name": "5 MW Green", "level": 9, "points": 10 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 600,
+      "magazine": 30,
+      "velocity": 528,
+      "adsMs": 200,
+      "reloadS": 2.2,
+      "headshot": 1.4,
+      "hitscanM": 8.8,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 10, "body": 26, "hits": 4 },
+        { "from": 20, "body": 20.6, "hits": 5 },
+        { "from": 35, "body": 17.2, "hits": 6 },
+        { "from": 75, "body": 14.7, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "sv-98",
+    "name": "SV-98",
+    "class": "Sniper Rifle",
+    "tier": "C",
+    "tags": [],
+    "role": "Aggressive close-sweet-spot sniper (55-75 m)",
+    "bestAt": "Aggressive forward sniping in tighter urban fights: the closest sweet spot of the classic bolt guns (55–75 m) lets you one-shot bodies at short-mid range. Play it forward, not from the map edge.",
+    "shines": "Urban and close maps with 50–75 m lanes. The weakest sniper this season, and the ELR-40 with Single Shot now covers the same niche better.",
+    "unlock": "Career Rank 26",
+    "build": {
+      "name": "Brawler",
+      "notes": "DLC Bolt and Slim Angled give quick follow-ups and ADS, the S-VPS 6x fits 55–75 m work, and the Range Finder confirms the band. The Double-Port Brake replaces its only suppressor, which costs too much.",
+      "parts": [
+        { "slot": "Scope", "name": "S-VPS 6.00X", "level": 0, "points": 10 },
+        { "slot": "Muzzle", "name": "Double-Port Brake", "level": 0, "points": 10 },
+        { "slot": "Barrel", "name": "730MM 3LR", "level": 9, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 22, "points": 15 },
+        { "slot": "Magazine", "name": "10RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Match Grade", "level": 3, "points": 10 },
+        { "slot": "Ergonomics", "name": "DLC Bolt", "level": 13, "points": 30 },
+        { "slot": "Left Accessory", "name": "Range Finder", "level": 7, "points": 15 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 38,
+      "magazine": 10,
+      "velocity": 680,
+      "adsMs": 300,
+      "reloadS": 3,
+      "headshot": 1.75,
+      "sweetSpots": [
+        { "from": 55, "to": 75, "label": "Body one-shot" }
+      ],
+      "bodyDamage": [
+        { "from": 0, "body": 80 },
+        { "from": 40, "body": 85 },
+        { "from": 45, "body": 91 },
+        { "from": 50, "body": 96 },
+        { "from": 55, "body": 100 }
+      ]
+    }
+  },
+  {
+    "id": "sl9",
+    "name": "SL9",
+    "class": "SMG",
+    "tier": "C",
+    "tags": ["Easy to use"],
+    "role": "Low-recoil sustain SMG",
+    "bestAt": "Steady close-mid fire for players who miss a lot with faster guns: the lowest recoil in its class, but a slow 675 rpm kill. The 60-round mag makes it a sustained objective holder.",
+    "shines": "Rush and Breakthrough objective holds, and controller players. Avoid straight duels with the SCW-10 or KV9; it is one of the weaker SMGs this season.",
+    "unlock": "Assignment: Closer Quarters 2",
+    "build": {
+      "name": "Sustain",
+      "notes": "The 60RND Magazine is the whole point of this gun and eats most of the budget. The cheap 11\" Extended barrel and Standard Suppressor support it, and Improved Mag Catch speeds the reload.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 5, "points": 10 },
+        { "slot": "Muzzle", "name": "Standard Suppressor", "level": 7, "points": 20 },
+        { "slot": "Barrel", "name": "11\" Extended", "level": 20, "points": 5 },
+        { "slot": "Magazine", "name": "60RND Magazine", "level": 30, "points": 55 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "Improved Mag Catch", "level": 31, "points": 5 }
+      ]
+    },
+    "alt": {
+      "name": "Agile",
+      "when": "Run-and-gun with a normal-size mag",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 5, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 22, "points": 25 },
+        { "slot": "Barrel", "name": "11\" Extended", "level": 20, "points": 5 },
+        { "slot": "Underbarrel", "name": "Factory Angled", "level": 0, "points": 20 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Hollow Point", "level": 25, "points": 15 },
+        { "slot": "Right Accessory", "name": "5 MW Green", "level": 15, "points": 10 }
+      ]
+    },
+    "stats": {
+      "rpm": 675,
+      "magazine": 30,
+      "velocity": 486,
+      "adsMs": 133,
+      "reloadS": 2.6,
+      "headshot": 1.4,
+      "hitscanM": 8.1,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 10, "body": 20.6, "hits": 5 },
+        { "from": 20, "body": 17.2, "hits": 6 },
+        { "from": 35, "body": 14.7, "hits": 8 },
+        { "from": 75, "body": 12.9, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "m45a1",
+    "name": "M45A1",
+    "class": "Pistol",
+    "tier": "C",
+    "tags": ["Hard to use"],
+    "role": "Close-range .45 hand cannon",
+    "bestAt": "Quiet close-range flanking: a 3-shot kill under 10 m, matching the M44 and VZ. 61 up close, with subsonic ammo by default. Damage drops off fast after that, and the base mag holds only 7 rounds.",
+    "shines": "Only for very short-range fights. One of the weakest pistols, and the M44 or VZ. 61 do the job better.",
+    "unlock": "Career Rank 39",
+    "build": {
+      "name": "Close",
+      "notes": "The 11RND Magazine is the key upgrade, backed by the Single-Port Brake and Improved Mag Catch. The Laser/Light Combo Green helps hipfire.",
+      "parts": [
+        { "slot": "Scope", "name": "Iron Sights", "level": 0, "points": 5 },
+        { "slot": "Muzzle", "name": "Single-Port Brake", "level": 1, "points": 10 },
+        { "slot": "Barrel", "name": "5\" Factory", "level": 0, "points": 10 },
+        { "slot": "Underbarrel", "name": "Laser/Light Combo Green", "level": 14, "points": 20 },
+        { "slot": "Magazine", "name": "11RND Magazine", "level": 9, "points": 25 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "Improved Mag Catch", "level": 12, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 327,
+      "magazine": 7,
+      "velocity": 336,
+      "adsMs": 167,
+      "reloadS": 1.9,
+      "headshot": 1.34,
+      "hitscanM": 5.6,
+      "damage": [
+        { "from": 0, "body": 33.4, "hits": 3 },
+        { "from": 10, "body": 25, "hits": 4 },
+        { "from": 20, "body": 20, "hits": 5 },
+        { "from": 35, "body": 16.7, "hits": 6 },
+        { "from": 55, "body": 14.3, "hits": 7 },
+        { "from": 75, "body": 12.5, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "m121-a2",
+    "name": "M121 A2",
+    "class": "LMG",
+    "tier": "C",
+    "tags": [],
+    "role": "Close-range objective breacher",
+    "bestAt": "Breaching objectives at 0–30 m: 35 damage gives 3-shot kills at 654 rpm, second only to the Z84M up close. The slowest bullets in its class (560 m/s) and a 50-round drum mean you should avoid long sightlines.",
+    "shines": "Interiors and objective rooms, such as the Vegas casino maps. Good on paper but near the bottom in practice; the free Z84M does the same job with twice the ammo.",
+    "unlock": "Past Battle Pass (Steel Talon path, tier 17)",
+    "build": {
+      "name": "CQB",
+      "notes": "The 460MM Factory barrel, Slim Angled grip, 50RND Drum, FMJ and MINI FLEX dot are the agreed close-range core.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 3, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 30, "points": 25 },
+        { "slot": "Barrel", "name": "460MM Factory", "level": 0, "points": 15 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 19, "points": 25 },
+        { "slot": "Magazine", "name": "50RND Drum", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Right Accessory", "name": "5 MW Green", "level": 12, "points": 10 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 654,
+      "magazine": 50,
+      "velocity": 560,
+      "adsMs": 367,
+      "reloadS": 6.3,
+      "headshot": 1.4,
+      "hitscanM": 9.3,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 20, "body": 26, "hits": 4 },
+        { "from": 75, "body": 20.6, "hits": 5 }
+      ]
+    }
+  },
+  {
+    "id": "rpkm",
+    "name": "RPKM",
+    "class": "LMG",
+    "tier": "C",
+    "tags": [],
+    "role": "Mid-long range AK-pattern LMG",
+    "bestAt": "Mid-long range fire at 40–70 m: an AK-style 7.62 LMG with a 40-round mag, set up with a 3x and Hollow Point. Play it as a semi-mobile automatic marksman rifle and don't try to out-spray belt-fed guns up close.",
+    "shines": "Only for long lanes on big maps, and other guns do even that better. The weakest LMG this season.",
+    "unlock": "Career Rank 30",
+    "build": {
+      "name": "Ranged",
+      "notes": "The 590MM Factory barrel, 40RND Magazine, Hollow Point and BAKER 3x are the shared core of the latest builds, all aimed at 40–70 m.",
+      "parts": [
+        { "slot": "Scope", "name": "BAKER 3.00X", "level": 16, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 27, "points": 25 },
+        { "slot": "Barrel", "name": "590MM Factory", "level": 0, "points": 10 },
+        { "slot": "Underbarrel", "name": "6H64 Vertical", "level": 13, "points": 25 },
+        { "slot": "Magazine", "name": "40RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Hollow Point", "level": 29, "points": 20 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 553,
+      "magazine": 40,
+      "velocity": 630,
+      "adsMs": 367,
+      "reloadS": 2.8,
+      "headshot": 1.4,
+      "hitscanM": 10.5,
+      "damage": [
+        { "from": 0, "body": 35, "hits": 3 },
+        { "from": 10, "body": 27.5, "hits": 4 },
+        { "from": 20, "body": 21.6, "hits": 5 },
+        { "from": 35, "body": 20.6, "hits": 5 },
+        { "from": 75, "body": 17.2, "hits": 6 }
+      ]
+    }
+  },
+  {
+    "id": "pp-19",
+    "name": "PP-19",
+    "class": "SMG",
+    "tier": "C",
+    "tags": ["Easy to use"],
+    "role": "Drum-fed objective holder",
+    "bestAt": "Holding flags: the 53-round drum lets you fight through several enemies without reloading. At 720 rpm with low recoil, its 5-shot kill holds out to 35 m, where other 9mm SMGs drop off at 20 m.",
+    "shines": "Rush and Breakthrough point holds, and Engineers who want sustain. It looks strong, but it is the weakest SMG in practice.",
+    "unlock": "Past Battle Pass (Explosive Charge path, tier 11)",
+    "build": {
+      "name": "Drum",
+      "notes": "The 53RND Drum is the gun's identity. The cheap 367mm CIV barrel and CQB Suppressor keep recoil low, and Improved Mag Catch offsets the slow drum reload.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 2, "points": 10 },
+        { "slot": "Muzzle", "name": "CQB Suppressor", "level": 35, "points": 30 },
+        { "slot": "Barrel", "name": "367mm CIV", "level": 4, "points": 5 },
+        { "slot": "Magazine", "name": "53RND Drum", "level": 16, "points": 45 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "Improved Mag Catch", "level": 14 }
+      ]
+    },
+    "alt": {
+      "name": "Agile",
+      "when": "When you want faster handling and ADS over capacity",
+      "parts": [
+        { "slot": "Scope", "name": "SU-123 1.50X", "level": 9, "points": 10 },
+        { "slot": "Muzzle", "name": "Double-Port Brake", "level": 16, "points": 10 },
+        { "slot": "Barrel", "name": "367mm CIV", "level": 4, "points": 5 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 12, "points": 20 },
+        { "slot": "Magazine", "name": "30RND Fast Mag", "level": 32, "points": 10 },
+        { "slot": "Ammunition", "name": "Synthetic Tip", "level": 37, "points": 20 },
+        { "slot": "Ergonomics", "name": "Aftermarket Buffer", "level": 28, "points": 5 },
+        { "slot": "Right Accessory", "name": "50 MW Green", "level": 24, "points": 20 }
+      ]
+    },
+    "stats": {
+      "rpm": 720,
+      "magazine": 30,
+      "velocity": 444,
+      "adsMs": 167,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 7.4,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 10, "body": 20.6, "hits": 5 },
+        { "from": 35, "body": 17.2, "hits": 6 },
+        { "from": 50, "body": 14.7, "hits": 8 },
+        { "from": 80, "body": 12.9, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "ak-205",
+    "name": "AK-205",
+    "class": "Carbine",
+    "tier": "C",
+    "tags": [],
+    "role": "Long-range laser",
+    "bestAt": "Picking people off at mid-long range: the lowest recoil variation (7.4°) and fastest bullets (708 m/s) of any carbine. But ~20 damage per bullet means a 5-shot kill, so it loses most close fights unless it shoots first; play from cover.",
+    "shines": "Only worth it on large open Conquest maps. On small maps and in Breakthrough, its 5-shot kill loses to every 3- and 4-shot carbine.",
+    "unlock": "Career Rank 22",
+    "build": {
+      "name": "Laser",
+      "notes": "The 314MM Cryogenic barrel and 6H64 Vertical add stability, and the 36RND Magazine covers the ammo-hungry 5-shot kills. The BAKER 3x optic suits long lanes.",
+      "parts": [
+        { "slot": "Scope", "name": "BAKER 3.00X", "level": 0, "points": 10 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 24, "points": 25 },
+        { "slot": "Barrel", "name": "314MM Cryogenic", "level": "S3 Hardware 6", "points": 20 },
+        { "slot": "Underbarrel", "name": "6H64 Vertical", "level": 15, "points": 25 },
+        { "slot": "Magazine", "name": "36RND Magazine", "level": 14, "points": 15 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 720,
+      "magazine": 30,
+      "velocity": 708,
+      "adsMs": 200,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 11.8,
+      "damage": [
+        { "from": 0, "body": 20.6, "hits": 5 },
+        { "from": 10, "body": 17.8, "hits": 6 },
+        { "from": 20, "body": 15, "hits": 7 },
+        { "from": 35, "body": 14.7, "hits": 8 },
+        { "from": 75, "body": 12.9, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "p18",
+    "name": "P18",
+    "class": "Pistol",
+    "tier": "C",
+    "tags": ["Easy to use"],
+    "role": "Default all-round backup",
+    "bestAt": "A consistent, easy default sidearm with no real strengths or weaknesses: 17 rounds, 400 rpm and a 4-hit kill under 10 m. Its main issue is muzzle rise.",
+    "shines": "A safe all-round backup until you unlock the M44 or level up the VZ. 61.",
+    "unlock": "Available from the start",
+    "build": {
+      "name": "Steady",
+      "notes": "The Single-Port Brake handles the muzzle rise, the Laser/Light Combo Green helps hipfire, and the 21RND Magazine gives room to miss.",
+      "parts": [
+        { "slot": "Scope", "name": "MINI FLEX 1.00X", "level": 3, "points": 10 },
+        { "slot": "Muzzle", "name": "Single-Port Brake", "level": 1, "points": 10 },
+        { "slot": "Barrel", "name": "3.9\" Factory", "level": 0, "points": 10 },
+        { "slot": "Underbarrel", "name": "Laser/Light Combo Green", "level": 13, "points": 20 },
+        { "slot": "Magazine", "name": "21RND Magazine", "level": 9, "points": 15 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "Improved Mag Catch", "level": 0, "points": 5 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 400,
+      "magazine": 17,
+      "velocity": 350,
+      "adsMs": 167,
+      "reloadS": 1.9,
+      "headshot": 1.34,
+      "hitscanM": 5.8,
+      "damage": [
+        { "from": 0, "body": 25, "hits": 4 },
+        { "from": 10, "body": 20, "hits": 5 },
+        { "from": 20, "body": 16.7, "hits": 6 },
+        { "from": 35, "body": 14.3, "hits": 7 },
+        { "from": 75, "body": 12.5, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "ggh-22",
+    "name": "GGH-22",
+    "class": "Pistol",
+    "tier": "C",
+    "tags": [],
+    "role": "Mid-range semi-auto pistol",
+    "bestAt": "Plinking at mid range with a small optic: a .40 semi-auto with gentle damage falloff (6 hits from 20–75 m). Competitive under 10 m, but it trails most sidearms elsewhere and excels at nothing.",
+    "shines": "Not a top pick anywhere, and one of the weakest pistols this season. Use it only if you like the feel.",
+    "unlock": "Past Battle Pass (Recruit path, tier 5)",
+    "build": {
+      "name": "Mid-range",
+      "notes": "Hollow Point ammo and the A-P2 1.75X optic suit its mid-range role.",
+      "parts": [
+        { "slot": "Scope", "name": "A-P2 1.75X", "level": 18, "points": 10 },
+        { "slot": "Muzzle", "name": "Flash Hider", "level": 3, "points": 10 },
+        { "slot": "Barrel", "name": "114MM Factory", "level": 0, "points": 10 },
+        { "slot": "Magazine", "name": "15RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Hollow Point", "level": 23, "points": 15 },
+        { "slot": "Top Accessory", "name": "5 MW Green", "level": 5, "points": 10 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 360,
+      "magazine": 15,
+      "velocity": 400,
+      "adsMs": 167,
+      "reloadS": 1.9,
+      "headshot": 1.34,
+      "hitscanM": 6.7,
+      "damage": [
+        { "from": 0, "body": 25, "hits": 4 },
+        { "from": 10, "body": 21.4, "hits": 5 },
+        { "from": 20, "body": 17.8, "hits": 6 },
+        { "from": 35, "body": 16.7, "hits": 6 },
+        { "from": 75, "body": 14.3, "hits": 7 }
+      ]
+    }
+  },
+  {
+    "id": "es-57",
+    "name": "ES 5.7",
+    "class": "Pistol",
+    "tier": "D",
+    "tags": [],
+    "role": "High-capacity long-range plinker",
+    "bestAt": "Long-range plinking: a 20-round mag and the slowest damage falloff of the semi-autos make it the best semi-auto pistol past 75 m. It is slow up close (5 hits), and a 21.5% bullet-speed cut hurt it at range.",
+    "shines": "The weakest pistol right now. Skip it for the M44 or VZ. 61.",
+    "unlock": "Career Rank 24",
+    "build": {
+      "name": "Capacity",
+      "notes": "The Standard Suppressor, 20RND Magazine and Improved Mag Catch form the base, with a 5 MW Green hipfire laser. The RO-S 1.25X optic suits its long-range niche.",
+      "parts": [
+        { "slot": "Scope", "name": "RO-S 1.25X", "level": 19, "points": 10 },
+        { "slot": "Muzzle", "name": "Standard Suppressor", "level": 15, "points": 20 },
+        { "slot": "Barrel", "name": "122MM Factory", "level": 0, "points": 10 },
+        { "slot": "Magazine", "name": "20RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "FMJ", "level": 0, "points": 5 },
+        { "slot": "Ergonomics", "name": "Improved Mag Catch", "level": 12, "points": 5 },
+        { "slot": "Top Accessory", "name": "5 MW Green", "level": 6, "points": 10 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 450,
+      "magazine": 20,
+      "velocity": 510,
+      "adsMs": 133,
+      "reloadS": 2,
+      "headshot": 1.34,
+      "hitscanM": 8.5,
+      "damage": [
+        { "from": 0, "body": 20, "hits": 5 },
+        { "from": 10, "body": 17.8, "hits": 6 },
+        { "from": 20, "body": 15, "hits": 7 },
+        { "from": 35, "body": 14.3, "hits": 7 },
+        { "from": 75, "body": 12.5, "hits": 8 }
+      ]
+    }
+  },
+  {
+    "id": "umg-40",
+    "name": "UMG-40",
+    "class": "SMG",
+    "tier": "D",
+    "tags": ["Easy to use"],
+    "role": "Low-recoil mid-range SMG",
+    "bestAt": "An easy-to-control close-mid gun while you level it: very low recoil, but the slowest-firing SMG (635 rpm) and last in kill speed at 15–30 m. It only pulls ahead past 50 m, which is off-role for an SMG.",
+    "shines": "Only worth it for mastery or if you can't control anything else. It is the weakest SMG this season and unlocks at Career Rank 29.",
+    "unlock": "Career Rank 29",
+    "build": {
+      "name": "Control",
+      "notes": "The 200MM Cryogenic barrel and Synthetic Tip prop up its weak damage range, and the Slim Angled grip speeds up ADS. The CQB Sights save points.",
+      "parts": [
+        { "slot": "Scope", "name": "CQB Sights", "level": 0, "points": 5 },
+        { "slot": "Muzzle", "name": "Long Suppressor", "level": 28, "points": 25 },
+        { "slot": "Barrel", "name": "200MM Cryogenic", "level": "S3 Hardware 6", "points": 20 },
+        { "slot": "Underbarrel", "name": "Slim Angled", "level": 17, "points": 20 },
+        { "slot": "Magazine", "name": "30RND Magazine", "level": 0, "points": 5 },
+        { "slot": "Ammunition", "name": "Synthetic Tip", "level": 39, "points": 25 }
+      ]
+    },
+    "alt": null,
+    "stats": {
+      "rpm": 635,
+      "magazine": 30,
+      "velocity": 467,
+      "adsMs": 167,
+      "reloadS": 2.5,
+      "headshot": 1.4,
+      "hitscanM": 7.8,
+      "damage": [
+        { "from": 0, "body": 26, "hits": 4 },
+        { "from": 10, "body": 21.6, "hits": 5 },
+        { "from": 20, "body": 17.8, "hits": 6 },
+        { "from": 35, "body": 17.2, "hits": 6 },
+        { "from": 75, "body": 14.7, "hits": 8 }
+      ]
+    }
+  }
+]

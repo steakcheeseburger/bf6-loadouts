@@ -1,0 +1,254 @@
+/* ------------------------------------------------------------------ tokens */
+:root {
+  --font: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --r-sm: 6px;
+  --r: 10px;
+  --r-lg: 16px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+  --good: #0ca30c;
+  --warning: #fab219;
+  --critical: #d03b3b;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0d0f12;
+  --surface: #15181c;
+  --surface-2: #1b1e23;
+  --surface-3: #252930;
+  --hover: #20242a;
+  --line: rgba(255, 255, 255, 0.08);
+  --line-strong: rgba(255, 255, 255, 0.16);
+  --text: #f0efec;
+  --text-2: #c3c2b7;
+  --text-3: #8f8d86;
+  --accent: #f5844a;
+  --accent-ink: #160a04;
+  --accent-soft: rgba(245, 132, 74, 0.14);
+  --focus: #86b6ef;
+  --grid: #2c2c2a;
+  --axis: #383835;
+  --show-a: #eceff2;
+  --show-b: #b6bcc5;
+  --scrim: rgba(5, 6, 8, 0.62);
+  /* ordinal tier ramp (single hue), validated against this surface: S brightest */
+  --tier-S: #ffb07a; --tier-S-ink: #1a0e06;
+  --tier-A: #f5844a; --tier-A-ink: #1a0e06;
+  --tier-B: #d9622a; --tier-B-ink: #120804;
+  --tier-C: #a84a1f; --tier-C-ink: #ffffff;
+  --tier-D: #7a3a1c; --tier-D-ink: #ffffff;
+  /* chart series (first two categorical slots, validated) */
+  --series-1: #3987e5;
+  --series-2: #d95926;
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+  --bg: #f3f2ef;
+  --surface: #fbfaf8;
+  --surface-2: #ffffff;
+  --surface-3: #ecebe6;
+  --hover: #f1f0ec;
+  --line: rgba(11, 11, 11, 0.1);
+  --line-strong: rgba(11, 11, 11, 0.2);
+  --text: #0b0b0b;
+  --text-2: #52514e;
+  --text-3: #6f6d67;
+  --accent: #c4541c;
+  --accent-ink: #ffffff;
+  --accent-soft: rgba(196, 84, 28, 0.1);
+  --focus: #2a78d6;
+  --grid: #e1e0d9;
+  --axis: #c3c2b7;
+  --show-a: #ffffff;
+  --show-b: #d9dde2;
+  --scrim: rgba(20, 20, 20, 0.35);
+  --shadow: 0 24px 60px rgba(30, 30, 30, 0.22);
+  --tier-S: #6b2b0b; --tier-S-ink: #ffffff;
+  --tier-A: #983d12; --tier-A-ink: #ffffff;
+  --tier-B: #c4541c; --tier-B-ink: #ffffff;
+  --tier-C: #e2702f; --tier-C-ink: #0b0b0b;
+  --tier-D: #ef965f; --tier-D-ink: #0b0b0b;
+  --series-1: #2a78d6;
+  --series-2: #eb6834;
+}
+
+/* ------------------------------------------------------------------ base */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  /* the scrollbar's space stays reserved when the detail panel locks scrolling, so the page doesn't jump sideways */
+  scrollbar-gutter: stable;
+  scroll-padding-top: 110px;
+  scrollbar-color: var(--line-strong) var(--bg);
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.5 var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.wrap {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+@media (max-width: 640px) {
+  .wrap {
+    padding: 0 14px;
+  }
+}
+
+/* weapon renders sit on a light "showroom" gradient so dark guns stay readable in both themes */
+.showroom {
+  background: radial-gradient(ellipse at 50% 58%, var(--show-a) 0%, var(--show-b) 100%);
+}
+
+/* section heading used across the page */
+.section-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+.section-head h2 {
+  font-size: 24px;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+}
+.section-head p {
+  margin-top: 4px;
+  color: var(--text-3);
+  font-size: 14px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: var(--r);
+  border: 1px solid var(--line-strong);
+  background: var(--surface-2);
+  font-size: 14px;
+  font-weight: 650;
+  white-space: nowrap;
+  transition: background 0.12s;
+}
+.btn:hover {
+  background: var(--hover);
+}
+.btn.icon {
+  width: 36px;
+  padding: 0;
+}
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* segmented control (distance, sort, view) */
+.seg {
+  display: inline-flex;
+  padding: 3px;
+  gap: 2px;
+  border-radius: var(--r);
+  background: var(--surface-3);
+}
+.seg button {
+  border: 0;
+  background: transparent;
+  height: 30px;
+  padding: 0 11px;
+  border-radius: 7px;
+  font-size: 13.5px;
+  font-weight: 650;
+  color: var(--text-2);
+  white-space: nowrap;
+}
+.seg button:hover {
+  color: var(--text);
+}
+.seg button[aria-pressed='true'] {
+  background: var(--surface-2);
+  color: var(--text);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+.seg button small {
+  font-weight: 500;
+  color: var(--text-3);
+  margin-left: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

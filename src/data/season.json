@@ -1,0 +1,138 @@
+{
+  "title": "BF6 Weapon Guide",
+  "name": "Season 5 · Siege of Vegas",
+  "mode": "Multiplayer",
+  "updated": "2026-10-31",
+  "patch": "Update 2.1.1.0",
+  "intro": "The best attachments for all 67 guns, the weapon level each one unlocks at, and how fast every gun kills.",
+  "spotlight": [
+    {
+      "id": "dominant",
+      "title": "Dominant right now",
+      "blurb": "The strongest guns this season.",
+      "tone": "hot",
+      "picks": [
+        { "weapon": "drs-iar", "note": "The best gun in Season 5. An LMG that handles like an assault rifle." },
+        { "weapon": "z84m", "note": "New. Fastest-killing LMG at every range, with a 100-round belt." },
+        { "weapon": "sg-553r", "note": "Fastest close-range carbine. Any class can use it." },
+        { "weapon": "nvo-228e", "note": "Best assault rifle: 3-hit kills up close." },
+        { "weapon": "mini-scout", "note": "Aggressive quickscope king, built for headshots." },
+        { "weapon": "elr-40", "note": "New. Its Single Shot mag one-shots the upper body at 30–80 m." }
+      ]
+    },
+    {
+      "id": "safe",
+      "title": "Safe, easy picks",
+      "blurb": "Very strong and easy to get.",
+      "tone": "good",
+      "picks": [
+        { "weapon": "m4a1", "note": "Unlocks at rank 2 and is still one of the best. Easy 900 rpm." },
+        { "weapon": "scw-10", "note": "Fastest kill inside 10 m of anything in the game." },
+        { "weapon": "rspr", "note": "New PDW: hits like the SCW-10 but keeps its damage to ~40 m." },
+        { "weapon": "m87a1", "note": "Best shotgun: one-shot kills to ~15–20 m. Free from the start." },
+        { "weapon": "m433", "note": "The free starter rifle is genuinely good." }
+      ]
+    },
+    {
+      "id": "overhyped",
+      "title": "Overhyped or nerfed",
+      "blurb": "Guns that look strong but are weaker than they seem.",
+      "tone": "warn",
+      "picks": [
+        { "weapon": "mk-24", "note": "Looks strong, but only average. 20-round mag until Lv 24." },
+        { "weapon": "kord-6p67", "note": "Easy to control, but needs 5 hits and loses duels." },
+        { "weapon": "svdm", "note": "Season 5 recoil nerf. Only works with slow, paced shots." },
+        { "weapon": "rpk-74m", "note": "Built for REDSEC armor; weak in multiplayer." },
+        { "weapon": "sgx", "note": "Fine free SMG, but other SMGs out-kill it." }
+      ]
+    }
+  ],
+  "bestFor": [
+    {
+      "id": "close",
+      "title": "Close quarters",
+      "hint": "Interiors and small maps — Empire State, Saints Quarter, Vegas Strip buildings, Area 51 tunnels.",
+      "picks": [
+        { "weapon": "z84m", "note": "" },
+        { "weapon": "scw-10", "note": "" },
+        { "weapon": "m87a1", "note": "" },
+        { "weapon": "sg-553r", "note": "" },
+        { "weapon": "rspr", "note": "" },
+        { "weapon": "nvo-228e", "note": "" },
+        { "weapon": "m1014", "note": "" },
+        { "weapon": "brod-3", "note": "" }
+      ]
+    },
+    {
+      "id": "open",
+      "title": "Big open maps",
+      "hint": "Mirak Valley, Area 51 surface, long Conquest lanes — low recoil and fast bullets win.",
+      "picks": [
+        { "weapon": "drs-iar", "note": "Ranged build" },
+        { "weapon": "b36a4", "note": "" },
+        { "weapon": "m16a4", "note": "burst" },
+        { "weapon": "nvo-228e", "note": "Ranged build" },
+        { "weapon": "m2010-esr", "note": "" },
+        { "weapon": "elr-40", "note": "Longshot build" },
+        { "weapon": "l85a3", "note": "" },
+        { "weapon": "m250", "note": "" }
+      ]
+    },
+    {
+      "id": "breakthrough",
+      "title": "Breakthrough & Rush",
+      "hint": "Choke points and objective rooms: big magazines to hold, close-range guns to clear.",
+      "picks": [
+        { "weapon": "drs-iar", "note": "" },
+        { "weapon": "z84m", "note": "" },
+        { "weapon": "sg-553r", "note": "" },
+        { "weapon": "m87a1", "note": "" },
+        { "weapon": "m123k", "note": "" },
+        { "weapon": "mini-scout", "note": "overwatch" }
+      ]
+    },
+    {
+      "id": "recon",
+      "title": "Aggressive sniping",
+      "hint": "Play the objective as Recon instead of camping the map edge.",
+      "picks": [
+        { "weapon": "mini-scout", "note": "headshots" },
+        { "weapon": "elr-40", "note": "Single Shot" },
+        { "weapon": "sv-98", "note": "55–75 m" },
+        { "weapon": "vssm", "note": "suppressed DMR" }
+      ]
+    },
+    {
+      "id": "longrange",
+      "title": "Long-range sniping",
+      "hint": "Holding a long lane. Each rifle one-shots to the body inside its sweet spot.",
+      "picks": [
+        { "weapon": "m2010-esr", "note": "75–100 m" },
+        { "weapon": "psr", "note": "100–120 m" },
+        { "weapon": "l115", "note": "100–133 m" },
+        { "weapon": "interdictor", "note": "120–160 m" },
+        { "weapon": "elr-40", "note": "Longshot build" }
+      ]
+    },
+    {
+      "id": "gems",
+      "title": "Hidden gems",
+      "hint": "Overlooked guns that perform well in Season 5.",
+      "picks": [
+        { "weapon": "m417-a2", "note": "" },
+        { "weapon": "grt-bc", "note": "" },
+        { "weapon": "m240l", "note": "" },
+        { "weapon": "svk-86", "note": "" },
+        { "weapon": "l85a3", "note": "" },
+        { "weapon": "m123k", "note": "" }
+      ]
+    }
+  ],
+  "notes": [
+    "Season 5 barely changed multiplayer guns. The big gunplay patch was Update 1.3.3.0 (30 June), so the builds here still apply.",
+    "Only nerfs: SVDM and M39 EMR recoil (spamming is punished). Controller recoil assist was cut from 11% to 5%.",
+    "REDSEC armor nerfs (SCW-10, SG 553R, KV9, KTS100…) do not apply to multiplayer.",
+    "The MK 24's Underslung Mount underbarrel has been disabled since launch week."
+  ],
+  "upcoming": ["10 Nov — Casino Heist: NSW4 carbine", "8 Dec — Frozen Aces: MK 1 MOD 0 DMR"]
+}

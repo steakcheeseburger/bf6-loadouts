@@ -1,0 +1,133 @@
+{
+  "title": "Attachment guide",
+  "intro": "What the attachments actually do, so you know why a build looks the way it does.",
+  "sections": [
+    {
+      "id": "basics",
+      "title": "How attachments work",
+      "summary": "Every gun has a 100-point budget. Each attachment costs points, so a build is a set of trade-offs.",
+      "points": [
+        "Attachments unlock by levelling that gun (kills and damage with it), from level 0 up to about 40.",
+        "Dashed tags like S3 HW 6 come from seasonal Hardware challenges, not from weapon level.",
+        "Most strong builds spend points in this order: grip, muzzle, magazine, scope — then ammo or a laser with what is left.",
+        "Until you reach the level for a part, use any unlocked part in the same slot."
+      ]
+    },
+    {
+      "id": "grips",
+      "title": "Grips",
+      "summary": "The grip (underbarrel) decides how fast you aim and how much the gun kicks.",
+      "table": {
+        "columns": ["Grip type", "Aim speed", "Recoil control", "Movement", "Best for"],
+        "rows": [
+          [
+            "Angled — Slim, Full, Adjustable",
+            "33–67 ms faster",
+            "a little",
+            "Slim: better · Full: worse",
+            "most builds, close–mid fights"
+          ],
+          [
+            "Stubby — Folding, Ribbed, Stippled, Low-Profile",
+            "33–67 ms faster",
+            "a little to a lot",
+            "varies",
+            "speed and control, but up to 45 pts"
+          ],
+          [
+            "Vertical — Classic,        6H64,        Alloy",
+            "no change",
+            "the most",
+            "slower",
+            "long-range builds"
+          ],
+          ["Bipod / grip pod", "—", "big when prone or mounted", "—", "holding one lane"]
+        ]
+      },
+      "tip": "Slim Angled vs Full Angled: same aim speed. Slim keeps you mobile and accurate while strafing; Full gives a little more recoil control. That is why fast close–mid builds use Slim.",
+      "points": [
+        "Aim speed comes from grips,      some barrels and smaller magazines on some guns — never from lasers."
+      ]
+    },
+    {
+      "id": "muzzles",
+      "title": "Muzzles",
+      "summary": "Mostly about whether enemies can see you shoot. Brakes and compensators put you on the enemy minimap.",
+      "table": {
+        "columns": ["Muzzle", "Shows you on the enemy minimap", "Recoil / accuracy", "Cost"],
+        "rows": [
+          [
+            "Standard,   Long,   Lightened Suppressor",
+            "only within ~15–20 m",
+            "slightly worse hip-fire",
+            "20–30"
+          ],
+          ["CQB Suppressor", "only within ~15–20 m", "no hip-fire penalty", "30"],
+          [
+            "Compensated / Double-Port Brake",
+            "yes,            at any distance",
+            "better recoil control",
+            "10–20"
+          ],
+          ["Linear Comp", "yes,             at any distance", "better sideways,             worse vertical", "10"],
+          ["Flash Hider", "yes (hides the on-screen marker)", "no change", "10"]
+        ]
+      },
+      "tip": "Default to a suppressor. Take a brake only if recoil is your real problem and you fight far away — or so close that you are seen anyway. Shotguns use the CQB Suppressor because it keeps hip-fire accurate."
+    },
+    {
+      "id": "lasers",
+      "title": "Lasers",
+      "summary": "Lasers never change aim speed. They improve hip-fire, and the blue and violet ones steady your aim while moving.",
+      "table": {
+        "columns": ["Laser", "Cost", "Hip-fire", "Aim while moving", "Visible beam"],
+        "rows": [
+          ["5 MW Red", "10", "+6–8", "–", "no"],
+          ["5 MW Green", "10", "+14–16", "–", "yes"],
+          ["50 MW Green", "20", "+22–25", "–", "yes"],
+          ["50 MW Blue", "20", "+14–16", "+10%", "yes"],
+          ["120 MW Blue", "30", "+22–25", "+10%", "yes"],
+          ["50 MW Violet", "10", "–", "+10%", "no"]
+        ]
+      },
+      "points": [
+        "SMGs and close-range carbines (SG 553R, M4A1, Brod 3): 5 MW Green — or 5 MW Red if you flank and want no beam.",
+        "Assault rifles and mid-range carbines: 50 MW Violet, or no laser and spend the points on the grip or suppressor.",
+        "Skip 120 MW Blue — 30 points rarely fits the budget."
+      ],
+      "tip": "A laser is the last thing you buy, with leftover points."
+    },
+    {
+      "id": "ammo",
+      "title": "Ammo",
+      "summary": "Ammo changes headshot damage or adds a side effect. Body damage stays the same.",
+      "table": {
+        "columns": ["Ammo", "What it does", "Cost", "Take it when"],
+        "rows": [
+          ["FMJ", "nothing (default)", "5", "spray or hip-fire guns — save the points"],
+          ["Hollow Point", "headshot multiplier to ~1.5×", "15 (5 on some guns)", "you tap heads at mid range"],
+          [
+            "Synthetic Tip",
+            "headshot multiplier to ~1.75×",
+            "20–30",
+            "headshot-focused rifles with points to spare"
+          ],
+          [
+            "Tungsten Core",
+            "shoots through thin cover, a bit more recoil",
+            "5",
+            "enemies hide behind thin cover"
+          ],
+          [
+            "Frangible",
+            "your hits delay enemy health regeneration",
+            "20",
+            "you land single hits (snipers, DMRs)"
+          ],
+          ["Polymer Case", "small movement boost", "10", "movement-heavy builds"]
+        ]
+      },
+      "tip": "Hollow Point only matters when it saves a shot. Example: on the B36A4 or M4A1 up close, two headshots plus one body shot do 98.8 damage with FMJ (no kill) but 104 with Hollow Point — a 3-shot kill instead of 4."
+    }
+  ]
+}

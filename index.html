@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="description" content="Battlefield 6 Season 5: best attachments, unlock levels and time-to-kill for all 67 weapons." />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>BF6 Season 5 · Weapon Builds & TTK</title>
+    <script>
+      // Apply the saved/OS theme before first paint to avoid a flash.
+      (function () {
+        try {
+          var q = new URLSearchParams(location.search).get('theme');
+          var t = q === 'dark' || q === 'light' ? q : localStorage.getItem('bf6:theme');
+          if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+          document.documentElement.dataset.theme = t;
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

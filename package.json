@@ -1,0 +1,25 @@
+{
+  "name": "bf6-s5-loadouts",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Battlefield 6 Season 5 weapon builds, unlock levels and time-to-kill — a static one-page app.",
+  "scripts": {
+    "dev": "vite",
+    "build": "bun run validate && vite build",
+    "preview": "vite preview",
+    "validate": "bun scripts/validate-data.ts",
+    "format": "bun scripts/format-data.ts",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@tsconfig/svelte": "^5.0.8",
+    "@types/bun": "^1.4.4",
+    "svelte": "^5.57.3",
+    "svelte-check": "^4.7.7",
+    "typescript": "5",
+    "vite": "^8.3.5",
+    "vite-plugin-singlefile": "^2.3.4"
+  }
+}
